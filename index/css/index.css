@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Monserrat|Poppins');
+
+header {
+height: 125px;
+width: 1100px;
+background-color: #012a4a;
+color: #D4E5ED;
+border: .5em double #D4E5ED;
+margin: auto;
+
+}
+
+h1 {
+font-family: 'Monserrat', serif;
+font-size: 40px;
+text-align: center;
+color: #f1faee;
+}
+
+h2 {
+color: #012a4a;
+font-size: 30px;
+}
+
+.photo {
+width: 200px;
+margin-top: 100px;
+}
+
+body {
+background-color: #f1faee;
+color: #012a4a;
+font-family: 'Poppins', sans-serif;
+font-size: 20px;   
+}
+#body-content {
+margin-left: 250px;
+}
+
+hr {
+margin-right: 325px;
+color: rgb(80, 79, 79);
+}
+
+footer {
+width: 1100px;
+background-color: #012a4a;
+color: #D4E5ED;
+border: .5em double #D4E5ED;
+min-height: 75px;
+margin: auto;
+text-align: center;
+padding-top: 25px;
+}
+
+.BYUI {
+color: #5b727c;
+}
+
+.BYUI:hover {
+color: #c7d5db;
+}
+#work {
+color: #72e4d5;
+}
+
