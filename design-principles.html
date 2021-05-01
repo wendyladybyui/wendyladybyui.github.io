@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="css/smalldesign.css">
     <link rel="stylesheet" href="css/mediumdesign.css">
     <link rel="stylesheet" href="css/largedesign.css">
+    <script src="./js/index.js"></script>
 </head>
-<body>
+<body onload="getdate()">
     <div class="head-grid">
             <h1 class="title">Design Principles: PARC</h1> 
-            <p href="index.html" class="home">HOME</p>
+            <a href="index.html" class="home">HOME</a>
             <p class="wendy">Wendy Strickland   |   WDD230   |   Week 2</p>
             <ul class="head-list">
             <li><a href="#proximity" class="menulink"><strong class="big">P</strong>roximity</a></li>
@@ -60,4 +61,11 @@
    </div>
    </div>
 </body>
+<footer onload="getYear()">
+    <div class="footer-content">
+        © <span id="NewYear"></span>2021 | Wendy Strickland | Utah | <a href="https://www.byui.edu/online" class="BYUI">BYUI Online Learning</a>
+        <div id="work"></div>
+        <a href="index.html" class=home>Go To Home Page</a>
+    </div>
+</footer>
 </html>
