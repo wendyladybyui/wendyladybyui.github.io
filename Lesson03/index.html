@@ -8,10 +8,62 @@
     <title>WorldWide Weather Today</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/weather.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+header {
+    background-image: url("images/header.jpg");
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+
+h1 {
+    font-family: 'Playfair+Display', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.class-info {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    box-shadow: 0 2px 15px #54665A;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    color: #779280;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+    </style>
 </head>
 
 <body>
     <header>
+        <img src="images/header.jpg" alt="weather header">
         <h1>Worldwide Weather Today</h1>
         <p class="class-info">Wendy Strickland  |  WDD230  |  Weather Site</p>
         </header>
