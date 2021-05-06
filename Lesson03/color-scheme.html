@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/weather.css">
     <link rel="stylesheet" href="css/weatherlarge.css">
+    <script src="./js/weather.js"></script>
     
 </head>
 
 <body>
-    <header style="background-image: url(./images/header.jpg)">
+    <header style="background-image: url(./images/header.jpg)" class="headimage">
         <h1>Worldwide Weather Today</h1>
         <p class="class-info">Wendy Strickland  |  WDD230  |  Weather Site</p>
         </header>
@@ -36,8 +37,19 @@
     <img src="images/website-color-scheme.jpg" alt="color palette created for weather site" class="colors-img">
 </main>
 
-<footer>
-
+<footer onload="getYear()">
+    <nav class="footer-nav">
+        <ul>
+            <li>Home</li>
+            <li>Audience</li>
+            <li>Colors</li>
+            <li>Typography</li>
+        </ul>
+    </nav>
+    <div class="footer-content">
+        © <span id="NewYear"></span>2021 | Wendy Strickland | Utah | <a href="https://www.byui.edu/online" target="_blank" class="BYUI">BYUI Online Learning</a>
+        <div id="work"></div>
+    </div>
 </footer>
 </body>
 </html>

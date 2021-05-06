@@ -10,15 +10,16 @@
     <link rel="stylesheet" href="css/weather.css">
     <link rel="stylesheet" href="css/weathermedium.css">
     <link rel="stylesheet" href="css/weatherlarge.css">
+    <script src="./js/weather.js"></script>
     
 </head>
 
-<body>
-    <header style="background-image: url(./images/header.jpg)">
+<body onload="getdate()">
+    <header style="background-image: url(./images/header.jpg)" class="headimage">
         <h1>Worldwide Weather Today</h1>
         <p class="class-info">Wendy Strickland  |  WDD230  |  Weather Site</p>
         </header>
-        <nav>
+        <nav class="header-nav">
             <ul>
                 <li><a href="index.html" class="home">Home</a></li>
                 <li><a href="target-audience.html" class="audience">Audience</a></li>
@@ -31,18 +32,31 @@
         <div class="color1">
     <h2 class="main-heading"><strong>Site Plan</strong></h2>
         </div>
-        <hr>
+        
     <h3 class="section name">Site Name</h3>
-    <p class="info name">I wanted to find a name that explained the purpose of the site just in the name.  I started with worldwideweathernow, but realized that was too specific if you were looking for more than just a minute by minujte weather forcast.  So I settled on WorldWideWeatreToday WWW today</p>
-    <img src="./images/siteName.jpg" alt="Site Name and purchasing information">
+    <p class="info name">I wanted to find a name that explained the purpose of the site just in the name.  I started with worldwideweathernow, but realized that was too specific if you were looking for more than just a minute by minujte weather forcast.  So I settled on WorldWide Weather Today WWW today</p>
+    <img src="./images/siteName.jpg" alt="Site Name and purchasing information" class="google">
     <hr>
     <h3 class="purpose section">Site Purpose</h3>
     <p class="info purpose">This is a website that can show the weather around the world, in real time.  You can use it based on your current location, zip code lookup or favorite locations.  It is an excellent resource for daily life as well as travel preparation, checking on family members and friends in other locations and to be up to date on all weather alerts in an area.</p>
-    
+    <hr>
+    <h3 class="section logo">Logo</h3>
+    <img src="images/Logo.jpg" alt="sun and snowflake merged together as one" class="sunflake">
     </main>
 
-    <footer>
-
+    <footer onload="getYear()">
+        <nav class="footer-nav">
+            <ul>
+                <li>Home</li>
+                <li>Audience</li>
+                <li>Colors</li>
+                <li>Typography</li>
+            </ul>
+        </nav>
+        <div class="footer-content">
+            © <span id="NewYear"></span>2021 | Wendy Strickland | Utah | <a href="https://www.byui.edu/online" target="_blank" class="BYUI">BYUI Online Learning</a>
+            <div id="work"></div>
+        </div>
     </footer>
 </body>
 </html>

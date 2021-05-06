@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/weather.css">
     <link rel="stylesheet" href="css/weatherlarge.css">
+    <script src="./js/weather.js"></script>
+    
 </head>
 
 <body>
@@ -32,7 +34,8 @@
         <hr>
     <h3 class="section typo">Typography</h3>
     <p class="info typo">My primary fonts are Monserrat and Playfair</p>
-    <table style="width:100%">
+    <div class="overflow"></div>
+    <table>
         <tr class="row1">
             <th>Section</th>
             <th>Font</th>
@@ -44,50 +47,61 @@
             <td>Site Header</td>
             <td>Playfair Bold</td>
             <td>50 px</td>
-            <td>#54665A</td>
+            <td class="c1">#54665A</td>
             <td class="sample1">Sample</td>
         </tr>
         <tr class="row3">
             <td>Primary Navigation</td>
             <td>Playfair</td>
             <td>35 px</td>
-            <td>#82BFAC</td>
+            <td class="c2">#82BFAC</td>
             <td class="sample2">Sample</td>
         </tr>
         <tr class="row4">
             <td>Footer Navigation</td>
             <td>Montserrat</td>
             <td>30 px</td>
-            <td>#CAE91A</td>
+            <td class="c3">#CAE91A</td>
             <td class="sample3">Sample</td>
         </tr>
         <tr class="row5">
             <td>Heading 1</td>
             <td>Playfair</td>
             <td>35 px</td>
-            <td>#DEE9C8</td>
+            <td class="c4">#DEE9C8</td>
             <td class="sample4">Sample</td>
         </tr>
         <tr class="row6">
             <td>Heading 2</td>
             <td>Playfair</td>
             <td>25 px</td>
-            <td>#FFFFFF</td>
+            <td class="c5">#FFFFFF</td>
             <td class="sample5">Sample</td>
         </tr>
         <tr class="row7">
             <td>Paragraph text</td>
             <td>Montserrat</td>
             <td>18 px</td>
-            <td>#54665A</td>
+            <td class="c6">#54665A</td>
             <td class="sample6">Sample</td>
         </tr>
     </table>
 
 </main>
 
-<footer>
-
+<footer onload="getYear()">
+    <nav class="footer-nav">
+        <ul>
+            <li>Home</li>
+            <li>Audience</li>
+            <li>Colors</li>
+            <li>Typography</li>
+        </ul>
+    </nav>
+    <div class="footer-content">
+        © <span id="NewYear"></span>2021 | Wendy Strickland | Utah | <a href="https://www.byui.edu/online" target="_blank" class="BYUI">BYUI Online Learning</a>
+        <div id="work"></div>
+    </div>
 </footer>
 </body>
 </html>
