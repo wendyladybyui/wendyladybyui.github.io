@@ -160,6 +160,14 @@ img {
     color: #546654;
 }
 
+.wide {
+    grid-column: 1;
+    grid-row: 9;
+    padding: 10px;
+    background-color: #DEE9C8;
+    color: #546654;
+}
+
 /* color scheme page */
 .colors-img {
     width: 100%;

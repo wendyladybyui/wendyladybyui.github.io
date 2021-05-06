@@ -79,4 +79,8 @@
         background-color: #ebb26f;
         color: #546654;
     }
+    .wide {
+        grid-column: 1/3;
+        grid-row: 5;
+    }
 }
