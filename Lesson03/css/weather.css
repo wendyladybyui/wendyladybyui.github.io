@@ -236,6 +236,7 @@ tr {
 .footer-nav {
     margin-top: 25px;
     margin-bottom: 25px;
+    padding: 5px;
     background-color: #CAE9A1;
     color: #54665A;
 }
