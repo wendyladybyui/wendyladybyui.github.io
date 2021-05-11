@@ -236,7 +236,7 @@ tr {
 .footer-nav {
     margin-top: 25px;
     margin-bottom: 25px;
-    padding: 5px;
+    padding: 10px;
     background-color: #CAE9A1;
     color: #54665A;
 }
@@ -244,4 +244,6 @@ tr {
 .footer-content {
     margin: auto;
     text-align: center;
+    font-size: .75em;
+   
 }
