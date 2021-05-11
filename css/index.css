@@ -54,13 +54,21 @@ padding-top: 25px;
 }
 
 .BYUI {
-color: #316b81;
+color: #3994b8;
 }
 
 .BYUI:hover {
 color: #c7d5db;
 }
+
+.BYUI2 {
+color:#92b3c0;
+}
+
+.BYUI2:hover {
+    color: #c7d5db;
+}
 #work {
-color: #72e4d5;
+color: #9ae0d7;
 }
 
