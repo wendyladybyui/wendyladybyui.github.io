@@ -43,7 +43,7 @@ header {
 
 
 .headerP {
-    color: #6ba9c9;
+    color: #42758f;
     text-shadow:0 4px 4px #f1f5a9;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: .65rem;
@@ -59,7 +59,7 @@ header {
 
 
 nav {
-        box-shadow: 0 2px 15px #54665A;
+        box-shadow: 0 2px 15px #435749;
         margin: 0 auto;
     }
 
