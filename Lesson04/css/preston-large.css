@@ -44,9 +44,6 @@ header {
 
 
 .headerP {
-    color: #6ba9c9;
-    text-shadow:0 4px 4px #f1f5a9;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 1.05rem;
     grid-column: 2;
     grid-row: 2;
