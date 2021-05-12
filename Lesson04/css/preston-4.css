@@ -43,8 +43,8 @@ header {
 
 
 .headerP {
-    color: #193b4d;
-    text-shadow:0 4px 4px #f1f5a9;
+    color: #052230;
+    text-shadow:0 5px 6px #f1f5a9;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: .65rem;
     grid-column: 2;
