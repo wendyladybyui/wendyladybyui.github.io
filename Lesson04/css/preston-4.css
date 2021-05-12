@@ -76,7 +76,8 @@ nav ul {
     
 nav ul li a {
         display: block;
-        color: #779280;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        color: #475e4e;
         text-align: center;
         padding: .5rem;
         text-decoration: none;
@@ -84,11 +85,11 @@ nav ul li a {
 
 nav ul li a:hover {
     color: white;
-    background-color: #779280;
+    background-color: #475e4e;
 
 }
 
 nav ul li a:active {
     color: white;
-    background-color: #779280;
+    background-color: #475e4e;
 }
