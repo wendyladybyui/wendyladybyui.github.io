@@ -8,5 +8,5 @@ function getYear() {
   let d = new Date();
   let year = d.getFullYear();
 
-  document.querySelector("#NewYear").innerHTML = year;
+  document.getElementById("#NewYear").innerHTML = year;
 }

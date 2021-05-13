@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="./css/preston-large.css">
     <script src="./js/preston.js"></script>
 </head>
-<body>
+<body onload="fulldate()">
 
-    <header style="background-image: url(./images/header.jpg)" class="background-img" >
+    <header style="background-image: url(./images/header-big.jpg)" class="background-img" >
 
         <img src="images/logo png.png" alt="Watercolor sun and snowflake combined" class="logoImage">
         <H1 class="headerH1">Worldwide Weather Today</H1>
@@ -23,7 +23,7 @@
 
     <nav>
         <ul class="headermenu">
-            <li><a class="hamburger" href="#">Menu</a></li>
+            <li><a class="hamburger " href="#">Menu</a></li>
             <li><a href="#">Home</a></li>
             <li><a href="preston-4.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
@@ -34,11 +34,20 @@
     </nav>
     
     <main>
-
+        <img src="https://via.placeholder.com/900x60?text=Hero+w/+weather+summary" alt="Hero placeholder" class="heroimage">
+        <br>
+        <img src="https://via.placeholder.com/900x60?text=5+Day+Forcast" alt="5 Day Weather Forcast placeholder" class="forcast">
+        <br>
+        <img src="https://via.placeholder.com/900x60?text=Article" alt="Article placeholder" class="article">
+        <br>
+        <img src="https://via.placeholder.com/900x60?text=Contact+Information" alt="Contact Information placeholder" class="contact">
     </main>
 
     <footer>
-
+        <div class="footer-content">
+            © <span id="NewYear"></span>2021 | Wendy Strickland | Utah | <a href="https://www.byui.edu/online" target="_blank" class="BYUI2">BYUI Online Learning</a><br>
+            Current Date: <span id="currentdate"></span><br>
+        </div>
     </footer>
 </body>
 </html>

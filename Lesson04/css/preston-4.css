@@ -4,7 +4,6 @@ header {
     background-color: #F1F5A9;
     color: #54665A;
     width: 100%;
-    height: auto;
     display: grid;
     grid-template-columns: 25% 75%;
     grid-template-rows: 1fr 1fr;
@@ -33,7 +32,7 @@ header {
     opacity: 85%;
     text-shadow:0 4px 5px #f3f88e;
     font-family: 'Playfair+Display', Times, serif;
-    font-size: 1.15rem;
+    font-size: 1.6rem;
     grid-column: 2;
     grid-row: 1;
     padding-top: 50px;
@@ -46,7 +45,7 @@ header {
     color: #285c27;
     text-shadow:0 5px 6px #f1f5a9;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    font-size: .65rem;
+    font-size: .6rem;
     grid-column: 2;
     grid-row: 2;
     padding-left: 10px;
@@ -58,7 +57,7 @@ header {
 }
 
 
-nav {
+nav, footer{
         box-shadow: 0 2px 15px #435749;
         margin: 0 auto;
         max-width: 760px;
@@ -86,7 +85,6 @@ nav {
         color: #475e4e;
         text-align: center;
         padding: .5rem;
-        text-align: center;
         text-decoration: none;
     }
 
@@ -98,4 +96,32 @@ nav {
 
 .responsive li {
 	display: block;
+}
+
+.heroimage, .forcast, .article, .contact {
+    min-height: 50px;
+    display: block;
+    width: 100%;
+    border: 1px dotted black;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #475e4e;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+}
+
+.BYUI2 {
+    color: #ef6429;
+}
+
+.BYUI2:hover {
+    color: #475e4e;
 }

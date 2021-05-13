@@ -1,5 +1,14 @@
 @media screen and (min-width: 32.5em) {
 
+    .headerH1 {
+        font-size: 1.85rem; 
+    }
+    
+    
+    .headerP {
+        font-size: .68rem;
+    }
+
 .headermenu {
     display: flex;
 }
@@ -15,5 +24,17 @@
 
 .headermenu li:first-child {
     display: none;
+}
+
+.heroimage, .forcast, .article, .contact {
+    width: 80%;
+    min-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+footer {
+    margin-top: 20px;
 }
 }
