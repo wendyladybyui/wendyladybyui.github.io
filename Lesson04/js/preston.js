@@ -38,6 +38,6 @@ const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 let fulldate = `${day}, ${d.getDate()} ${monthName} ${year}`;
 document.getElementById("currentdate").textContent = fulldate;
-
+document.getElementById("NewYear").textContent = year;
 }
 
