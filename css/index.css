@@ -34,7 +34,15 @@ font-family: 'Poppins', sans-serif;
 font-size: 20px;   
 }
 #body-content {
-margin-left: 250px;
+margin-left: 300px;
+}
+
+ul {
+    margin-left: 5px;
+}
+
+li {
+    list-style: none;
 }
 
 hr {
