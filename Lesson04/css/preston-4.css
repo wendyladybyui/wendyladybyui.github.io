@@ -13,7 +13,6 @@ header {
     margin-left: auto;
     padding-top: 10px;
     padding-left: 10px;
-
 }
 
 .logoImage {
@@ -33,7 +32,6 @@ header {
     justify-self: center;
 }
 
-
 .headerP {
     color: #285c27;
     text-shadow:0 5px 6px #f1f5a9;
@@ -48,7 +46,6 @@ header {
     padding-top: 0;
 
 }
-
 
 nav, footer{
         box-shadow: 0 2px 15px #435749;
