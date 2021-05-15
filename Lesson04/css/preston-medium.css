@@ -1,7 +1,21 @@
 @media screen and (min-width: 32.5em) {
 
+    .logoImage {
+        display: block;
+        width: 100px;
+        height: auto;
+        grid-column: 1;
+        grid-row: 1/3;
+        justify-self: center;
+        align-self: center;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+    
     .headerH1 {
         font-size: 1.85rem; 
+        padding-top: 35px;
     }
     
     
