@@ -6,4 +6,5 @@ document.addEventListener('DOMContentLoaded', function() {
 	button.addEventListener('click', () => {nav.classList.toggle('responsive')}, false);
 
 
-    window.onresize = () => {if (window.innerWidth > 760px) nav.classList.remove('responsive'));
+    window.onresize = () => {if (window.innerWidth > 760) nav.classList.remove('responsive');
+}})
