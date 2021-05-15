@@ -1,12 +1,9 @@
-/*document.addEventListener("click", hamburger();
+document.addEventListener('DOMContentLoaded', function() {
 
-
-function hamburger() {
     let button = document.querySelector('.hamburger');
     let nav = document.querySelector('.headermenu');
 
 	button.addEventListener('click', () => {nav.classList.toggle('responsive')}, false);
 
 
-    window.onresize = () => {if (window.innerWidth > 760px) nav.classList.remove('responsive')}
-}*/
+    window.onresize = () => {if (window.innerWidth > 760px) nav.classList.remove('responsive'));
