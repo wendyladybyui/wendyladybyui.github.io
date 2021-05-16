@@ -185,7 +185,7 @@ table {
 }
 
 tr:first-child {
-    background-color: #F1F5A9;
+    background-color: #eceecc;
     color: #779280;
 }
 
@@ -203,7 +203,7 @@ tr {
     font-family: 'Playfair+Display', Times, serif;
     font-size: 35px;
     background-color: #82BFAC;
-    color: #DEE9C8;
+    color: #eceecc;
 }
 
 .sample3 {
