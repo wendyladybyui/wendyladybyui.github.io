@@ -23,7 +23,11 @@ button {
     position: absolute;
     right: 430px;
     margin-right: 20px;
+}
 
+.input {
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .list {
