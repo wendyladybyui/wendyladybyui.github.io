@@ -26,8 +26,7 @@
         margin-left: auto;
         padding: 8px;
         margin-right: auto;
-        background-color: #82BFAC;
-        color: #546654;
+       
     }
     .grid2 {
         width: 275px;
@@ -44,8 +43,7 @@
         margin-left: auto;
         padding: 8px;
         margin-right: auto;
-        background-color: #cae9a1;
-        color: #546654;
+       
     }
     
     .grid3 {
@@ -62,8 +60,7 @@
         margin-left: auto;
         padding: 8px;
         margin-right: auto;
-        background-color: #f1f5a9;
-        color: #546654;
+       
     }
     
     .grid4 {
@@ -80,14 +77,12 @@
         margin-left: auto;
         padding: 8px;
         margin-right: auto;
-        background-color: #ebb26f;
-        color: #546654;
+        
     }
     .wide {
         grid-column: 1/5;
         grid-row: 3;
-        background-color: #dee9c8;
-        color: #546654;
+        
     }
 }
 

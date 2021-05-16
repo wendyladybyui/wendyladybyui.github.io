@@ -26,8 +26,7 @@
         margin-left: 0;
         margin-right: 0;
         padding: 8px;
-        background-color: #82BFAC;
-        color: #546654;
+       
     }
     .grid2 {
         width: 100%;
@@ -42,8 +41,7 @@
         margin-left: 0;
         margin-right: 0;
         padding: 8px;
-        background-color: #cae9a1;
-        color: #546654;
+       
     }
     
     .grid3 {
@@ -59,8 +57,7 @@
         margin-left: 0;
         margin-right: 0;
         padding: 8px;
-        background-color: #f1f5a9;
-        color: #546654;
+        
     }
     
     .grid4 {
@@ -76,8 +73,7 @@
         margin-left: 0;
         margin-right: 0;
         padding: 8px;
-        background-color: #ebb26f;
-        color: #546654;
+      
     }
     .wide {
         grid-column: 1/3;
