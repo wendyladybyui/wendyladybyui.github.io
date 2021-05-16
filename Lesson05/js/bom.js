@@ -3,16 +3,18 @@ const list = document.querySelector('ul');
 const input = document.querySelector('input');
 const button = document.querySelector('button');
 
-var babs = button.OnClick = function() {
-    let myItem = input.value;
-    input.value = '';
+button.onclick = myFunction();
+
+function myFunction() {
+    let myFav = document.querySelector(input);
+    
 
     const listItem = document.createElement('li');
     const listText = document.createElement('span');
     const listBtn = document.createElement('button');
 
     listItem.appendChild(listText);
-    listText.textContent = myItem;
+    listText.textContent = myFav;
     listItem.appendChild(listBtn);
     listBtn.textContent = '❌';
     list.appendChild(listItem);
@@ -23,5 +25,4 @@ var babs = button.OnClick = function() {
 
     input.focus();
 }
-window.onload = babs
 
