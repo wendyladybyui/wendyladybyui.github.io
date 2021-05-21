@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorldWide Weather Today</title>
+    <meta name="description" content="A handy dandy weather site made for WDD230">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/preston-5.css">
+    <link rel="stylesheet" href="./css/preston-medium.css">
+    <link rel="stylesheet" href="./css/preston-large.css">
+    <script src="./js/year.js"></script>
+    <script src="./js/preston.js"></script>
+</head>
+<body onload="getDate()">
+
+    <header style="background-image: url(./images/header-big.jpg)" class="background-img">
+
+        <img src="images/logo-png.png" alt="Watercolor sun and snowflake combined" class="logoImage">
+        <H1 class="headerH1">Worldwide Weather Today</H1>
+        <hr class="headerHR">
+        <p class="headerP"><strong>Whether you are traveling around the block or around the world, <br>get the info you need before you go!</strong></p>
+    </header>
+
+    <nav>
+        <ul class="headermenu">
+            <li><a class="hamburger " href="#">Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-4.html" class="active-page">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#"> Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <H1><strong>Preston, Idaho</strong></H1>
+        <img src="images/hero-image.jpg" alt="hero" class="heroimage">
+        <div class="hero-box">
+            <h2 class="weather">Weather Summary</h2>
+            <hr class="hero-hr">
+            <table class="weatherBox">
+            <tr>
+                <td class="left">CURRENTLY:    </td><td class="right">Sunny</td>
+            </tr>
+            <tr>
+                <td class="left">HIGH:    </td><td class="right">72* F</td>
+            </tr>
+            <tr>
+                <td class="left">WIND CHILL:    </td><td class="right">68* F</td>
+            </tr>
+            <tr>
+                <td class="left">HUMIDITY:    </td><td class="right">22%</td>
+            </tr>
+            <tr>
+                <td class="left">WIND SPEED:     </td><td class="right">11 mph</td>
+            </table>
+        </div>
+        <div class="5daydrop">
+            <h1>
+               <strong>5 Day Forecast</strong>
+            </h1>
+                <table>
+                    <tr>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                        <th>Sunday</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                    </tr>
+                    <tr>
+                        <td><img src="images/rain.png" alt="rainy" class="weatherimage"></td>
+                        <td><img src="images/sunny.png" alt="sunny" class="weatherimage"></td>
+                        <td><img src="images/cloudySunny.png" alt="partly cloudy" class="weatherimage"></td>
+                    </tr>
+
+            </table>
+        <img src="https://via.placeholder.com/900x60?text=5+Day+Forcast" alt="5 Day Weather Forcast placeholder" class="forcast 5day">
+        </div>
+        <img src="https://via.placeholder.com/900x60?text=Article" alt="Article placeholder" class="article">
+        <br>
+        <img src="https://via.placeholder.com/900x60?text=Contact+Information" alt="Contact Information placeholder" class="contact">
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            © <span id="NewYear"></span> | Wendy Strickland | Utah | <a href="https://www.byui.edu/online" target="_blank" class="BYUI2">BYUI Online Learning</a><br>
+            Current Date: <span id="currentdate"></span><br>
+        </div>
+    </footer>
+</body>
+</html>

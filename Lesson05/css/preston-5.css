@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
+
+header {
+    background-color: #F1F5A9;
+    color: #54665A;
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.logoImage {
+    display: none;
+}
+
+.headerH1 {
+    color: #ef6429;
+    opacity: 85%;
+    text-shadow:0 4px 5px #f3f88e;
+    font-family: 'Playfair+Display', Times, serif;
+    font-size: 1.6rem;
+    grid-column: 1/3;
+    grid-row: 1;
+    padding-top: 20px;
+    margin-bottom: 5px;
+    justify-self: center;
+}
+
+.headerP {
+    color: #285c27;
+    text-shadow:0 5px 6px #f1f5a9;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: .6rem;
+    grid-column: 1/3;
+    grid-row: 2;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0;
+    justify-self: center;
+    padding-top: 0;
+
+}
+
+nav, footer{
+        box-shadow: 0 2px 15px #435749;
+        margin: 0 auto;
+        max-width: 760px;
+    }
+
+.headermenu li:first-child {
+    display: block;
+}
+
+.headermenu li {
+    display: none;
+}
+    
+.headermenu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+.headermenu li a {
+        display: block;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: #475e4e;
+        text-align: center;
+        padding: .5rem;
+        text-decoration: none;
+    }
+
+.headermenu li a:hover {
+    color: white;
+    background-color: #475e4e;
+
+}
+
+.active-page {
+    color: white;
+    background-color: #475e4e;
+}
+
+.active-page a:hover {
+    color: #475e4e;
+    background-color: white;
+}
+
+.responsive li {
+	display: block;
+}
+
+h1 {
+    font-family: 'Playfair+Display', Times, serif;
+    font-size: 1.6em;
+    margin-left: 155px;
+    color: #475e4e;
+    margin-bottom: 0px;
+}
+.heroimage {
+    display: block;
+    width: 100%;
+    min-height: 278px;
+    margin-top: 5px;
+}
+
+.hero-box {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0;
+    background-color:#F1F5A9;
+    opacity: 100%;
+    color: #475e4e;
+    ;
+}
+
+.weather {
+    font-size: 1.5em;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.hero-hr {
+    border: none;
+    height: 0;
+    border-top: 2px solid #475e4e;
+    padding-top: 0;
+}
+
+.weatherBox {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    padding-bottom: .5em;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right; 
+}
+
+
+
+.forcast, .article, .contact {
+    min-height: 50px;
+    display: block;
+    width: 100%;
+    border: 1px dotted black;
+    margin-top: 10px;
+}
+
+.weatherimage {
+    height: 150px;
+    width: auto;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #475e4e;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+}
+
+.BYUI2 {
+    color: #0e165c;
+}
+
+.BYUI2:hover {
+    color: #0e165c79;
+}
