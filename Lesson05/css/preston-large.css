@@ -133,6 +133,18 @@ nav {
         grid-column: 2;
         grid-row: 1;
     }
+
+    .contact-address {
+        color: rgb(12, 73, 73);
+    }
+    .location {
+        width: 30px;
+        padding-left: 50px;
+    }
+
+    .secondRow {
+        padding-left: 80px;
+    }
     .contact-address {
         display: block;
         grid-column: 2;
@@ -170,7 +182,7 @@ nav {
         grid-row: 1/5;
         padding-left: 100px;
     padding-right: 100px;
-    padding-top: 25px;
+    padding-top: 10px;
     padding-bottom: 10px;
     height:250px;
     width:500px;
