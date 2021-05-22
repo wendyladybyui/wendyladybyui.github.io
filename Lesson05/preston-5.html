@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./css/preston-large.css">
     <script src="./js/year.js"></script>
     <script src="./js/preston.js"></script>
+    <script src="js/5day.js"></script>
 </head>
 <body onload="getDate()">
 
@@ -59,33 +60,86 @@
                 <td class="left">WIND SPEED:     </td><td class="right">11 mph</td>
             </table>
         </div>
-        <div class="5daydrop">
-            <h1>
-               <strong>5 Day Forecast</strong>
-            </h1>
-                <table>
-                    <tr>
-                        <th>Friday</th>
-                        <th>Saturday</th>
-                        <th>Sunday</th>
-                        <th>Monday</th>
-                        <th>Tuesday</th>
-                    </tr>
-                    <tr>
-                        <td><img src="images/rain.png" alt="rainy" class="weatherimage"></td>
-                        <td><img src="images/sunny.png" alt="sunny" class="weatherimage"></td>
-                        <td><img src="images/cloudySunny.png" alt="partly cloudy" class="weatherimage"></td>
-                    </tr>
+        <div class="grid">
+                        <div class="r1">
+                            <strong>5 Day Forecast</strong></div>         
+                        <div class="r2c1">
+                            <div class="row2">Friday</div>
+                            <div class="r3c1 row3"><img src="images/rain.png" alt="rainy" class="weatherimage"></div>
+                            <div class="r4c1 row4">Hi 75* F/Low 55* F</div>
+                            <div class="r5c1 row5">Rainy</div>
+                            </div>
 
-            </table>
-        <img src="https://via.placeholder.com/900x60?text=5+Day+Forcast" alt="5 Day Weather Forcast placeholder" class="forcast 5day">
+                        <div class="r2c2"> 
+                            <div class="row2">Saturday</div>
+                            <div class="r3c2 row3"><img src="images/sunny.png" alt="sunny" class="weatherimage"></div>
+                            <div class="r4c2 row4">Hi 82* F/Low 60* F</div>
+                            <div class="r5c2 row5">Sunny</div>
+                            </div>
+                        
+                        <div class="r2c3">
+                            <div class="row2">Sunday</div>
+                            <div class="r3c3 row3"><img src="images/cloudySunny.png" alt="partly cloudy" class="weatherimage"></div>
+                            <div class="r4c3 row4">Hi 68* F/Low 50* F</div>
+                            <div class="r5c3 row5">Partly Cloudy</div>
+                            </div>
+
+                        <div class="r2c4">
+                            <div class="row2">Monday</div>
+                            <div class="r3c4 row3"><img src="images/cloudySunny.png" alt="partly cloudy" class="weatherimage"></div>
+                            <div class="r4c4 row4">Hi 69* F/Low 53* F</div>
+                            <div class="r5c4 row5">Partly Cloudy</div>
+                            </div>
+
+                        <div class="r2c5">
+                            <div class="row2">Tuesday</div>
+                            <div class="r3c5 row3"><img src="images/sunny.png" alt="sunny" class="weatherimage"></div>
+                            <div class="r4c5 row4">Hi 79* F/Low 60* F</div>
+                            <div class="r5c5 row5">Sunny</div>
+                            </div>
+                        
+        
         </div>
-        <img src="https://via.placeholder.com/900x60?text=Article" alt="Article placeholder" class="article">
-        <br>
-        <img src="https://via.placeholder.com/900x60?text=Contact+Information" alt="Contact Information placeholder" class="contact">
+        <div class="article">
+            <img src="images/Preston_sign.png" alt="Preston Idaho Sign - Est 1900" class="article-image">
+            <h2 class="article-title">Idaho Day Celebration returning in June as three-day event</h2>
+            <p class="article-content">The traditional Idaho Days celebration is returning to Franklin as a three-day family event in June, following a yearlong hiatus.<br>
+                <br>
+                Festivities will begin about 4:30 p.m., Thursday, June 24, with the start of a two-day softball tournament. Nine-player teams of family members and friends, 14 and older, will play at Franklin City Park on E. Main Street. The first day’s activities also will include a children’s box-car race, an all-ages color run along Main Street and a movie-in-the-park showing about sundown.<br>
+                <br>
+                Softball games will continue Friday afternoon, June 25, and a hamburger stand will open in the evening. To register for the softball tournament, call Chance and Rachel Randle at (208) 851-0034.<br>
+                <br>
+                A scholarship pageant also will be conducted at 7 p.m. Friday, east of City Hall. The pageant’s theme is “Honor the Past, Celebrate the Present, Embrace the Future.” Young women age 16 to 19 years old, who are residents of Franklin, will qualify for $100 participation awards and be competing for $500, $350 and $200 finalist scholarships.<br>
+                <br>
+                The numerous activities scheduled Saturday, June 26, are to include a veterans’ flag-raising ceremony, a 7 a.m. free-to-enter 5k/10k family fun run, breakfast available from the Preston Elks Lodge, a 10 a.m. parade, food and accessory vendors in the park until 4 p.m., access to historic buildings, a children’s sand dig for small items, traditional pioneer games and activities, a spelling bee at 3:30 p.m. and a car show.<br>
+                <br>
+                The Franklin Lions Club will sell an Idaho Days dinner from 5 to 7 p.m. A lively auction of desirable items will be held, live music will be performed by regional favorite, Mason Jarr, and a celebration-ending fireworks display will be accompanied by stirring recorded music.<br>
+                <br>
+                Sponsors of the event include the City of Franklin and Franklin Lions Club. Franklin’s annual celebration of its founding was canceled last year due to the Covid-19 pandemic. Until last year, the community’s 1860 birth had been celebrated yearly since 1910.</p>
+        </div>
     </main>
-
+    <div class="footer1">
+        <div class="contact">
+            <h2 class="contact-title">Contact Information</h2>
+            <div class="contact-info">
+                <div class="contact-address">
+                    1234 Fifth Ave<br>
+                    Sixton, SV 89101<br>
+                </div>
+                <img src="images/email.png" class="contacticons emailicon" alt="email icon"><a href="mailto:info@prestontown.gov">info@prestontown.gov</a><br>
+                <img src="images/phone-icon.png" class="contacticons phoneicon" alt="phone icon"><a href="Tel: 123-456-7890">(123)456-7890</a>
+                <div class="social-icons">
+                    <a href="www.twitter.com"><img src="images/twitter.png" alt="twitter icon" class="social twitter"></a>
+                    <a href="www.facebook.com"><img src="images/facebook.png" alt="facebook icon" class="social facebook"></a>
+                    <a href="www.instagram.com"><img src="images/instagram.png" alt="instagram icon" class="social instagram"></a>
+                </div>
+            </div>
+        </div>
+    <div class="mapouter1"><div class="gmap1"><iframe width="300" height="150" id="gmap" src="https://maps.google.com/maps?q=preston,%20idaho&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="2" scrolling="no"></iframe><br></div></div>
+    <div class="mapouter"><div class="gmap"><iframe width="500" height="250" id="gmap" src="https://maps.google.com/maps?q=preston,%20idaho&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="2" scrolling="no"></iframe><br></div></div>
+    </div>
     <footer>
+        
         <div class="footer-content">
             © <span id="NewYear"></span> | Wendy Strickland | Utah | <a href="https://www.byui.edu/online" target="_blank" class="BYUI2">BYUI Online Learning</a><br>
             Current Date: <span id="currentdate"></span><br>
