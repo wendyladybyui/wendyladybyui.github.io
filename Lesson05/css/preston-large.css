@@ -122,9 +122,10 @@ nav {
     }
 
     .footer1 {
-        max-height: 280px;
+        max-height: 300px;
         margin-left: 140px;
         margin-right: 140px;
+        margin-bottom: 2px;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -161,10 +162,13 @@ nav {
         grid-column: 2;
         grid-row: 4;
         padding-bottom: 10px;
+        padding-left: 35px;
          }
 
     .social {
         width: 50px;
+        padding-right: 20px;
+        padding-top: 10px;
 
     }
 
@@ -202,7 +206,7 @@ nav {
     } 
       
 footer {
-    padding-top: 0;
+    padding-top: 1px;
     padding-bottom: 15px;
     padding-left: 190px;
     padding-right: 190px;
