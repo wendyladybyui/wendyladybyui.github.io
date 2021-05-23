@@ -84,7 +84,7 @@ nav, footer{
 
 }
 
-.active-page {
+.headermenu li a.active-page {
     color: white;
     background-color: #475e4e;
 }
