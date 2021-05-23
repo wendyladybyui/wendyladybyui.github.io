@@ -40,15 +40,143 @@
     display: none;
 }
 
-.heroimage, .forcast, .article, .contact {
+.grid {
     width: 80%;
-    min-height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 15px;
+}
+
+.row2 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.row3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.r1 {
+    grid-row: 1;
+    grid-column: 1/6;
+    font-family:  'Playfair+Display', Times, serif;
+    font-size: 2em;
+    color:#ef6429;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.r2c1 {
+    grid-column: 1;
+    grid-row: 2;
+  
+}
+
+.r2c2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.r2c3 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.r2c4 {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.r2c5 {
+    grid-column: 5;
+    grid-row: 2;
+}
+
+.article-image {
+    float: right;
+    width: 250px;
+    height: auto;
+    padding-top: 0px;
+    margin-top: 25px;
+    margin-right: 20px;
+    box-shadow: 2px 2px 4px #77aeb1;
+}
+
+
+.footer1 {
+    width: 100%;
+    max-height: 250px;
+    margin-bottom: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mapouter1 {
+    grid-column: 1;
+    grid-row: 1/6;
+    display: block;
+    position: relative;
+    left: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    height:150px;
+    width:300px;
+}
+
+.gmap1 {
+    display: block;
+    overflow:hidden;
+    background:none;
+    height: 150px;
+    width: 300px;
+}
+
+.contact-title {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.contact-address {
+    color: rgb(12, 73, 73);
+}
+.location {
+    width: 30px;
+    padding-left: 50px;
+    margin-top: 0px;
+}
+
+.secondRow {
+    padding-left: 80px;
+}
+.contact-address {
+    display: block;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.contacticons {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.social-icons {
+    display: none;
 }
 
 footer {
     margin-top: 20px;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 }

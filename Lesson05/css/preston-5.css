@@ -337,12 +337,13 @@ h1 {
     }
 
 footer {
+    padding-left: auto;
+    padding-right: auto;
+    width: 100%;
     text-align: center;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #475e4e;
-    padding-left: 0;
-    padding-right: 0;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 0px;
