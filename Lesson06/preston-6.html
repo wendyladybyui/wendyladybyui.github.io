@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WorldWide Weather Today</title>
-    <meta name="description" content="Preston, ID | News | Weather | More! ">
+    <meta name="description" content="A handy dandy weather site made for WDD230">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/preston-5.css">
@@ -15,12 +15,9 @@
     <script src="./js/preston.js"></script>
     <script src="js/5day.js"></script>
 </head>
-<div class="pancake hide">
-    Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
-</div>
 <body onload="getDate()">
 
-    <header style="background-image: url(./images/header-big.jpg)" class="background-img">
+    <header class="background-image">
         <img src="images/logo-png.png" alt="Watercolor sun and snowflake combined" class="logoImage">
         <H1 class="headerH1">Worldwide Weather Today</H1>
         <hr class="headerHR">
@@ -137,8 +134,8 @@
                 </div>
             </div>
         </div>
-    <div class="mapouter1"><div class="gmap1"><iframe id="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28165.66435176584!2d-111.90059357226608!3d42.09567363909678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1622043832506!5m2!1sen!2sus" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br></div></div>
-    <div class="mapouter"><div class="gmap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28165.66435176584!2d-111.90059357226608!3d42.09567363909678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1622043832506!5m2!1sen!2sus" width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe><br></div></div>
+    <div class="mapouter1"><div class="gmap1"><iframe width="300" height="150" id="gmap" src="https://maps.google.com/maps?q=preston,%20idaho&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="2" scrolling="no"></iframe><br></div></div>
+    <div class="mapouter"><div class="gmap"><iframe width="500" height="250" id="gmap" src="https://maps.google.com/maps?q=preston,%20idaho&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="2" scrolling="no"></iframe><br></div></div>
     </div>
     <footer>
         

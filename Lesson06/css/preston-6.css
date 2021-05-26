@@ -2,7 +2,7 @@
 
 header {
     background-image: url("images/header-big.jpg");
-    background-position: center;
+    background-position: center
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #F1F5A9;
@@ -359,16 +359,4 @@ footer {
 
 .BYUI2:hover {
     color: #0e165c79;
-}
-
-.hide {
-    display: none;
-}
-
-.pancake {
-    background-color:#77aeb1;
-    color: white;
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    font-size: 1em;
-    font-weight: bold;
 }
