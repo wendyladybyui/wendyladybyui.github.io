@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');*/
+
+.pancake {
+    background-color:#ef6429;
+    color:#f3f5ce;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    padding: 5px;
+    text-align: center;
+    margin-top: 5px;
+    border: 2px solid #f3f5ce;
+}
 
 header {
-    background-image: url("images/header-big.jpg");
-    background-position: center
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #F1F5A9;
     color: #54665A;
     width: auto;
     height: 100%;
@@ -19,6 +24,13 @@ header {
     padding-left: 10px;
 }
 
+header .background-image {
+    background-image: url(./images/header-big.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f3f5f3;
+}
 .logoImage {
     display: none;
 }
@@ -108,9 +120,15 @@ h1 {
 }
 .heroimage {
     display: block;
-    width: 100%;
-    min-height: 278px;
     margin-top: 5px;
+}
+
+main figure.heroimage {
+    width: 90%;
+}
+
+main figure.heroimage img {
+    width: 100%;
 }
 
 .hero-box {
@@ -254,11 +272,18 @@ h1 {
     background-color: #d2eca3;
 }
 
-.article-image {
-    display: block;
+main figure.article-image {
     width: 100%;
+    display: block;
     padding-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
 }
+
+main figure.article-image img {
+    width: 100%;
+}
+
 .article-title {
     color:rgb(10, 51, 51);
     font-family: 'Playfair+Display', Times, serif;

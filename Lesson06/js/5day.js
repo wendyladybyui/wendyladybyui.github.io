@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+/*document.addEventListener('DOMContentLoaded', function() {
 
     let button = document.querySelector('.5day');
     let nav = document.querySelector('.5daydrop');
@@ -8,3 +8,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
     window.onresize = () => {if (window.innerWidth > 760) nav.classList.remove('responsive');
 }})
+*/

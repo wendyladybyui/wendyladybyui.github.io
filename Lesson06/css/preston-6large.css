@@ -118,15 +118,6 @@ nav {
         margin-right: auto;
     }
 
-    .article-image {
-        float: right;
-        width: 350px;
-        height: auto;
-        padding-top: 0px;
-        margin-top: 25px;
-        margin-right: 20px;
-        box-shadow: 2px 2px 4px #77aeb1;
-    }
 
     .article-title {
         margin-top: 10px;

@@ -98,16 +98,14 @@
     grid-row: 2;
 }
 
-.article-image {
+main figure.article-image img {
     float: right;
-    width: 250px;
-    height: auto;
+    width: 40%;
     padding-top: 0px;
     margin-top: 25px;
     margin-right: 20px;
     box-shadow: 2px 2px 4px #77aeb1;
 }
-
 
 .footer1 {
     width: 100%;
