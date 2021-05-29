@@ -5,6 +5,14 @@ header {
     height: 262px;
 }
 
+header .background-image {
+    background-image: url(./images/header-1600.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f3f5f3;
+}
+
 .logoImage {
     width: 200px;
     height: auto;
@@ -118,6 +126,9 @@ nav {
         margin-right: auto;
     }
 
+    main figure.article-image img {
+        width: 30%;
+    }
 
     .article-title {
         margin-top: 10px;

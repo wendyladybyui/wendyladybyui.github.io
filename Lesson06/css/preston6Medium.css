@@ -13,6 +13,13 @@
         padding-bottom: 0;
     }
     
+    header .background-image {
+        background-image: url(./images/header-1100.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #f3f5f3;
+    }
     .headerH1 {
         font-size: 1.85rem; 
         padding-top: 35px;

@@ -25,7 +25,7 @@ header {
 }
 
 header .background-image {
-    background-image: url(./images/header-big.jpg);
+    background-image: url(./images/header-600.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
