@@ -1,37 +1,45 @@
-.picture {
+.pictures {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
 }
 
 .pic1 {
     grid-column: 1;
     grid-row: 1;
+    justify-self: center;
 }
 
 .pic2 {
     grid-column: 2;
     grid-row: 1;
+    justify-self: center;
 }
 
 .pic3 {
     grid-column: 3;
     grid-row: 1;
+    justify-self: center;
 }
 
 .pic4 {
     grid-column: 1;
     grid-row: 2;
+    justify-self: center;
 }
 
 .pic5 {
     grid-column: 2;
     grid-row: 2;
+    justify-self: center;
 }
 
 .pic6 {
     grid-column: 3;
     grid-row: 2;
+    justify-self: center;
 }
 
 article img[data-src] {
