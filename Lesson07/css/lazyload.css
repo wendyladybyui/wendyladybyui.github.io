@@ -1,0 +1,44 @@
+.picture {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.pic1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.pic2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.pic3 {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.pic4 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.pic5 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.pic6 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+article img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  article img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
