@@ -6,27 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lazy Load</title>
     <link rel="stylesheet" href="./css/lazyload.css">
-    <script src="./js/lazy.js"></script>
 </head>
 <body>
-    <h1>Gallary</h1>
-    <div class="pictures">
-        <img src="images/placeholder.jpg" data-src="images/salt.jpg" alt="Sunset on the Salt Flats" class="pic1">
+    <h1>Gallery</h1>
+    <div class="gallery">
+        <picture class="pic1">
+        <img src="images/placeholder.jpg" data-src="./images/salt.jpg" alt="Sunset on the Salt Flats" class="js-lazy-load">
+        </picture>
     <picture class="pic2">
-        <img src="images/placeholder.jpg" data-src="images/2.jpg" alt="picture 2">
+        <img src="images/placeholder.jpg" data-src="images/2.jpg" alt="picture 2" class="js-lazy-load">
     </picture>
     <picture class="pic3">
-        <img src="images/placeholder.jpg" data-src="images/3.jpg" alt="picture 3">
+        <img src="images/placeholder.jpg" data-src="images/3.jpg" alt="picture 3" class="js-lazy-load">
     </picture>
     <picture class="pic4">
-        <img src="images/placeholder.jpg" data-src="images/4.jpg" alt="picture 4">
+        <img src="images/placeholder.jpg" data-src="images/4.jpg" alt="picture 4" class="js-lazy-load">
     </picture>
     <picture class="pic5">
-        <img src="images/placeholder.jpg" data-src="images/5.jpg" alt="picture 5">
+        <img src="images/placeholder.jpg" data-src="images/5.jpg" alt="picture 5" class="js-lazy-load">
     </picture>
     <picture class="pic6">
-        <img src="images/placeholder.jpg" data-src="images/6.jpg" alt="picture 6">
+        <img src="images/placeholder.jpg" data-src="images/6.jpg" alt="picture 6" class="js-lazy-load">
     </picture>
     </div>
+    <script src="./js/lazy.js"></script>
 </body>
 </html>
