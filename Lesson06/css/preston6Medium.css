@@ -184,4 +184,40 @@ footer {
     padding-left: 80px;
     padding-right: 80px;
 }
+
+/* Gallery CSS */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    
+}
+
+.pic1, .pic4, .pic7 {
+    grid-column: 1;
+    width: 400px;
+}
+
+.pic2, .pic5, .pic8 {
+    grid-column: 2;
+    width: 400px;
+}
+
+.pic3, .pic6, .pic9 {
+    grid-column: 3;
+    width: 400px;
+}
+
+.pic1, .pic2, .pic3 {
+    grid-row: 1;
+}
+
+.pic4, .pic5, .pic6 {
+    grid-row: 2;
+}
+
+.pic7, .pic8, .pic9 {
+    grid-row: 3;
+}
+
 }

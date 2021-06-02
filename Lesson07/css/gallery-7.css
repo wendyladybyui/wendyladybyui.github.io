@@ -391,12 +391,3 @@ footer {
 .BYUI2:hover {
     color: #0e165c79;
 }
-
-/* Gallery CSS */
-.gallery {
-    display: block;
-}
-
-.gallery img {
-    width: 100%;
-}
