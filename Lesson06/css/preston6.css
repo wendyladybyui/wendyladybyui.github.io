@@ -372,8 +372,8 @@ main .article .article-content {
     }
 
 footer {
-    padding-left: auto;
-    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     text-align: center;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
