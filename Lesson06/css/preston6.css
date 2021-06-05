@@ -401,6 +401,15 @@ footer {
     width: 100%;
 }
 
+img[data-src] {
+    filter: blur(0.1em);
+}
+
+.img {
+    filter: blur(0em);
+    transition: filter 0.20s;
+}
+
 figcaption {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     color:rgb(26, 109, 109);
