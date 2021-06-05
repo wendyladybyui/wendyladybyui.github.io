@@ -1,5 +1,5 @@
 .gallery {
-    display: grid;
+    display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-row-gap: 10px;
@@ -14,31 +14,46 @@
 
 .pic2 {
     grid-column: 2;
-    grid-row: 1;
+    grid-row: 2;
     justify-self: center;
 }
 
 .pic3 {
     grid-column: 3;
-    grid-row: 1;
+    grid-row: 3;
     justify-self: center;
 }
 
 .pic4 {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 4;
     justify-self: center;
 }
 
 .pic5 {
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 5;
     justify-self: center;
 }
 
 .pic6 {
     grid-column: 3;
-    grid-row: 2;
+    grid-row: 6;
     justify-self: center;
 }
 
+
+img[data-src] {
+    filter: blur(0.1em);
+    transition: filter 2s;
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 5s;
+}
+
+@keyframes img {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
