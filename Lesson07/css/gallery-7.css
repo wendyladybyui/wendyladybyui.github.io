@@ -372,8 +372,8 @@ main .article .article-content {
     }
 
 footer {
-    padding-left: auto;
-    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     text-align: center;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -390,4 +390,30 @@ footer {
 
 .BYUI2:hover {
     color: #0e165c79;
+}
+
+/* Gallery CSS */
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.js-lazy-load {
+    width: 350px;
+    height: auto;
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+figcaption {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color:rgb(26, 109, 109);
 }
