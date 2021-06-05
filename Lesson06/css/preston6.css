@@ -394,20 +394,23 @@ footer {
 
 /* Gallery CSS */
 .gallery {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.gallery img {
-    width: 100%;
+.js-lazy-load {
+    width: 350px;
+    height: auto;
 }
-
-img[data-src] {
-    filter: blur(0.1em);
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
-
-.img {
-    filter: blur(0em);
-    transition: filter 0.20s;
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 2s;
 }
 
 figcaption {
