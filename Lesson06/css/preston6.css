@@ -400,3 +400,8 @@ footer {
 .gallery img {
     width: 100%;
 }
+
+figcaption {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color:rgb(26, 109, 109);
+}
