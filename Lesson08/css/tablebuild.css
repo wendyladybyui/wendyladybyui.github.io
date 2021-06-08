@@ -6,6 +6,8 @@ table {
     border-collapse: collapse;
     box-shadow: 8px 8px 15px #628ca6;
     text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .h1 {
