@@ -10,7 +10,7 @@ table {
     margin-top: 20px;
 }
 
-.h1 {
+#sales thead tr th:nth-child(1) {
     color:  black;
     background-color: #7fb9c2;
     font-size: 2em;
@@ -21,12 +21,13 @@ table {
     margin: 0;
 }
 
-thead {
+#sales thead tr:nth-child(2) th {
     font-weight: bold;
-    color: black;
+    font-size: 1.2em;
+    background-color: #628ca6;
+    color: #ffffff;
     border: 2px solid #d3d3d3;
 }
-
 
 #sales tr:nth-child(even) {
     background-color: #e7ffed;
@@ -36,27 +37,20 @@ thead {
     background-color: #E7F0ED;
 }
 
-tfoot {
-    text-align: center;
-}
 
-.blue, .blue2 {
+#sales tbody tr:nth-child(4) td:nth-child(3), #sales thead tr:nth-child(2) {
     background-color: #628ca6;
     color: #ffffff;
 }
 
-.blue2, td {
+#sales td {
     padding-top: 10px;
     padding-bottom: 10px;
     border: 2px solid #d3d3d3;
 }
 
-.blue2 {
-    font-weight: bold;
-    font-size: 1.2em;
-}
 
-.foot {
+#sales tfoot tr td {
     background-color: #7fb9c2;
-    font-size: .9em;
+    font-size: .8em;
 }
