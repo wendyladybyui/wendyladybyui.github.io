@@ -417,3 +417,73 @@ figcaption {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     color:rgb(26, 109, 109);
 }
+
+/* storm css */
+form {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #475e4e;
+    margin-left: 25px;
+  
+}
+
+.grid {
+    display: block;
+}
+
+.form {
+    margin: 10px;
+    width: 500px;
+    padding-left: 2em;
+    box-shadow: 2px 2px 4px #475e4e;
+}
+.contact {
+    background-color:rgb(32, 73, 73);
+    color: #d2eca3;
+    padding-top: 1.5em;
+    line-height: 2em;
+    padding-bottom: 2.5em;
+}
+
+.storm {
+    background-color:#d2eca3;
+    color: rgb(32, 73, 73);
+    padding-top: .5em;
+}
+
+#stormSeverity {
+    color: rgb(32, 73, 73);
+    color:  #2075ff;
+}
+
+#submit {
+    background-color: #f1f5a9;
+    color: #ef6429;
+    font-weight: bold;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 2px 2px 4px rgb(32, 73, 73);
+}
+
+.button {
+    text-align: center;
+}
+
+#danger {
+    color:#ef6429;
+}
+
+/* thanks css */
+.thanks {
+    text-align: center;
+    margin-left: 0;
+}
+
+.thanksP {
+    background-color: #d2eca3;
+    color:rgb(10, 51, 51);
+    text-align: center;
+    padding: 20px;
+}
