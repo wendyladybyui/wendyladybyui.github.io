@@ -40,6 +40,10 @@ table {
     color: #ffffff;
 }
 
+#sales tbody tr:nth-child() td:nth-child(1) {
+    font-style: italic;
+}
+
 #sales td {
     padding-top: 10px;
     padding-bottom: 10px;
