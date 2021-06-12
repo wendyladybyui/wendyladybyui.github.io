@@ -8,7 +8,13 @@ document.addEventListener('DOMContentLoaded', function() {
     a = Date.parse(localStorage.a);
     b = Date.parse(localStorage.b);
         c = (b - a); 
+        if (c < 0) {
+            output= c;
+        }
+        else {
+            output = 0;
+        }
 
 
-document.getElementById("lastvisit").textContent = c;
+document.getElementById("lastvisit").value = output;
 })
