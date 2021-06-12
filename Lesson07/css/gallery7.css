@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
 
 .pancake {
     background-color:#ef6429;
@@ -17,7 +17,6 @@ header {
     display: grid;
     grid-template-columns: 25% 75%;
     grid-template-rows: 1fr 1fr;
-    margin-top: 5px;
     margin-right: auto;
     margin-left: auto;
     padding-top: 10px;
@@ -416,4 +415,18 @@ footer {
 figcaption {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     color:rgb(26, 109, 109);
+}
+
+.pics:hover {
+    box-shadow: none;
+}
+
+.visit {
+    background-color: #eff1c6fa;
+    color:rgb(10, 51, 51);
+    font-family:  'Montserrat', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }

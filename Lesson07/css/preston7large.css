@@ -230,4 +230,9 @@
         padding-bottom: 15px;
         margin-bottom: 25px;
     }
+
+    .pics:hover {
+        padding: 10px;
+        box-shadow: 2px 2px 4px rgb(12, 73, 73);
+    }
     }
