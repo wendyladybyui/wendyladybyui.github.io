@@ -24,7 +24,7 @@ fetch(requestURL)
     img.src = prophets[i].imageurl;
     img.alt = prophets[i].name + prophets[i].lastname - prophets[i].order;
 
-    card.appendChild(h2).appendChild(birth).appendChild(img);
+    card.appendChild(h2).appendChild(birth).appendChild(place).appendChild(img);
 
 document.querySelector('div.cards').appendChild(card);
 
