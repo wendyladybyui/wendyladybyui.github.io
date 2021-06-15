@@ -2,10 +2,12 @@ h1 {
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #0E0E52;
+    filter: drop-shadow(2px 2px 4px white)
 }
 
 header {
     background-color: #B2B2B2;
+    padding: 5px;
 }
 
 main {
@@ -16,35 +18,36 @@ main {
 
 section {
     width: 250px;
-    height: 325px;
+    height: 375px;
     background-color: #58504A;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-bottom: 5px;
     box-shadow: 2px 2px 4px black;
 }
 
 h2 {
-    color: #b2b2b2;
+    color: white;
     text-align: center;
 
 }
 
 p {
-    color: white;
+    color: #b2b2b2;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1em;
+    font-size: .65em;
     text-align: center;
 }
 
 img {
     width: 225px;
+    height: 275px;
     margin-top: 10px;
     margin-bottom: 10px;
     box-shadow: 2px 2px 4px #0E0E52;
 }
 
 .cards {
-    background-color: #03b5aa;
+    background-color: #b2cecb;
     width: 100%;
     max-width: 1100px;
     margin-left: auto;
@@ -65,10 +68,12 @@ footer {
     padding-bottom: 10px;
 }
 
-footer a:link {
+.BYUI2 {
     color: #03b5aa;
 }
 
-BYUI2:visited {
+
+
+.BYUI2 a:visited {
     color: #a63d40;
 }
