@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worldwide Weather Today</title>
+    <meta name="description" content="Your one stop for weather, news, and information about south eastern Idaho | Worldwide Weather Today">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../Lesson06/css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="../lesson06/js/year.js"></script>
+    <script src="js/days.js"></script>
+</head>
+<body onload="getDate()">
+    <header style="background-image: url(../Lesson06/images/header-big.jpg)" class="background-image">
+        <img src="../Lesson06/images/logo-png.png" alt="Watercolor sun and snowflake combined" class="logoImage">
+        <H1 class="headerH1">Worldwide Weather Today</H1>
+        <hr class="headerHR">
+        <p class="headerP"><strong>Whether you are traveling around the block or around the world, <br>get the info you need before you go!</strong></p>
+    </header>
+    <nav>
+        <ul class="headermenu">
+            <li><a class="hamburger " href="#">Menu</a></li>
+            <li><a href="index.html"  class="active-page">Home</a></li>
+            <li><a href="../Lesson06/preston6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#"> Fish Haven</a></li>
+            <li><a href="../Lesson08/stormcenter.html">Storm Center</a></li>
+            <li><a href=".../Lesson07/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    <main class="maingrid">
+        <picture>
+            <img src="images/hero.jpg" alt="Idaho Sunset" class="hero"
+                srcset="images/hero400.jpg 400w,
+                        images/hero800.jpg 800w, 
+                        images/hero1500.jpg 1500w">
+        </picture>
+        <H2 class="way2go">Things to know about Idaho</H2>
+        <ul class="huh">
+            <li>Soda Springs in home to the world's only captive geyser.  It was discovered 80 years ago while drilling for a swimming pool.</li><br>
+            <li>Preston was the site of the 1863 Bear River Massacre.  A monument was erected there to commemorate the event.</li><br>
+            <li>Fish Haven was originally named Rush Creek but the name was changed because of the proximity to Bear Lake and the abundent fishing there.</li>
+        </ul>
+        <section>
+        <article class="sodabox">
+            <div class="soda data"></div>
+            <picture>
+                <img src="images/soda500.jpg" alt="An Old House in Preston, Id" class="sodaphoto townphotos"
+                    srcset="images/soda300.jpg 300w,
+                            images/soda500.jpg 500w">
+            </picture>
+        </article>
+            
+        <article class="fishbox">
+            <div class="fish data"></div>
+            <img src="images/fish500.jpg" alt="View of a lake in Idaho" class="fishphoto townphotos"
+                srcset="images/fish300.jpg 300w,
+                        images/fish500.jpg 500w">
+        </article>
+
+        <article class="prestonbox">
+            <div class="preston data"></div>
+            <img src="images/preston500.jpg" alt="An Old House in Preston, Id" class="prestonphoto townphotos"
+                srcset="images/preston300.jpg 300w,
+                        images/preston500.jpg 500w">
+        </article>
+        </section>
+    </main>    
+    <footer>
+        <div class="footer-content">
+            © <span id="NewYear"></span> | Wendy Strickland | Utah | <a href="https://www.byui.edu/online" target="_blank" class="BYUI2">BYUI Online Learning</a>  |  <a href="wireframes.html" class="wireframelink">Wireframes</a><br>
+            Current Date: <span id="currentdate"></span><br>
+            
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+    <script src='js/towns.js'></script>
+    </body>
+    </html>

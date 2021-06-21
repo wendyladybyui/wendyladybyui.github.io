@@ -1,0 +1,22 @@
+.mobile, .tablet, .desktop {
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.pad {
+    padding-top: 10px;
+    margin-top: 6px;
+}
+p {
+    font-family:  'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color:rgb(26, 109, 109);
+}
+
+main {
+    background-color: #eff1c6fa;
+    padding-bottom: 10px;
+}

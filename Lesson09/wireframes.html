@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wendy's Wonderful Weather Wireframes</title>
+    <meta name="description" content="A handy dandy wireframe to establish the layout for the homepage">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../Lesson06/css/normalize.css">
+    <link rel="stylesheet" href="../Lesson07/css/gallery7.css">
+    <link rel="stylesheet" href="../Lesson07/css/preston7medium.css">
+    <link rel="stylesheet" href="../Lesson07/css/preston7large.css">
+    <link rel="stylesheet" href="css/wireframe.css">
+    <script src="../lesson06/js/year.js"></script>
+</head>
+<body onload="getDate()">
+    <header style="background-image: url(../Lesson06/images/header-big.jpg)" class="background-image">
+
+        <img src="../Lesson06/images/logo-png.png" alt="Watercolor sun and snowflake combined" class="logoImage">
+        <H1 class="headerH1">Worldwide Weather Today</H1>
+        <hr class="headerHR">
+        <p class="headerP"><strong>Whether you are traveling around the block or around the world, <br>get the info you need before you go!</strong></p>
+    </header>
+    <nav>
+        <ul class="headermenu">
+            <li><a class="hamburger " href="#">Menu</a></li>
+            <li><a href="../Lesson09/index.html">Home</a></li>
+            <li><a href="../Lesson06/preston6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#"> Fish Haven</a></li>
+            <li><a href="../Lesson08/stormcenter.html">Storm Center</a></li>
+            <li><a href="../Lesson07/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <picture class="pad">
+            <p class="pad">Mobile wireframe</p>
+            <img src="images/mobilewireframe.jpg" alt="mobile wireframe image" 
+                class="mobile">
+        </picture><br>
+        <picture>
+            <p>Tablet wireframe</p>
+            <img src="images/tabletwireframe.jpg" alt="tablet wireframe image"
+                class="tablet">
+        </picture><br>
+        <picture class="bottom">
+            <p>Desktop Wireframe</p>
+            <img src="images/desktopwireframe.jpg" alt="desktop wireframe image"
+                class="desktop bottom">
+        </picture>
+    </main>    
+    <footer>
+        <div class="footer-content">
+            © <span id="NewYear"></span> | Wendy Strickland | Utah | <a href="https://www.byui.edu/online" target="_blank" class="BYUI2">BYUI Online Learning</a><br>
+            Current Date: <span id="currentdate"></span><br>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+    </body>
+    </html>
