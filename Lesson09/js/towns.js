@@ -6,9 +6,6 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);
-  
-
-  const towns = jsonObject['towns'];
 
     let soda = document.createElement('section');
     let h2 = document.createElement('h2');
@@ -16,7 +13,14 @@ fetch(requestURL)
     let yearFounded = document.createElement('p');
     let currentPopulation = document.createElement('p');
     let averageRainfall = document.createElement('p');
-    
+    soda.classList.add('soda-title');
+    h2.classList.add('soda-h2');
+    motto.classList.add('soda-motto');
+    yearFounded.classList.add('soda-year');
+    currentPopulation.classList.add('soda-pop');
+    averageRainfall.classList.add('soda-ave');
+
+  const towns = jsonObject['towns'];
 
     h2.textContent = towns[0].name;
     motto.textContent = 'Motto: ' + towns[0].motto;
@@ -37,6 +41,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);
+
   
     let fish = document.createElement('section');
     let h2 = document.createElement('h2');
@@ -44,7 +49,13 @@ fetch(requestURL)
     let yearFounded = document.createElement('div');
     let currentPopulation = document.createElement('div');
     let averageRainfall = document.createElement('div');
-    
+    fish.classList.add('fish-title');
+    h2.classList.add('fish-h2');
+    motto.classList.add('fish-motto');
+    yearFounded.classList.add('fish-year');
+    currentPopulation.classList.add('fish-pop');
+    averageRainfall.classList.add('fish-ave');
+
   const towns = jsonObject['towns'];
 
     h2.textContent = towns[2].name;
@@ -72,6 +83,12 @@ fetch(requestURL)
     let yearFounded = document.createElement('p');
     let currentPopulation = document.createElement('p');
     let averageRainfall = document.createElement('p');
+    preston.classList.add('preston-title');
+    h2.classList.add('preston-h2');
+    motto.classList.add('preston-motto');
+    yearFounded.classList.add('preston-year');
+    currentPopulation.classList.add('preston-pop');
+    averageRainfall.classList.add('preston-ave');
 
   const towns = jsonObject['towns'];
 

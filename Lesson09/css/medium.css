@@ -188,17 +188,16 @@ footer {
 }
 
 /* home page */
+.way2go {
+    font-size: 1.5em;
+}
 .huh {
     margin-left: 50px;
     margin-right: 50px;
+    font-size: .75em;
 }
 section {
-    background-color: #77aeb1;
     max-width: 600px;
-    margin: .5rem auto;
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
 }
 
 article {
