@@ -185,36 +185,56 @@ footer {
     padding-right: 80px;
 }
 
-}
-
 /* home page */
 .way2go {
-    font-size: 1.5em;
+    font-size: 2em;
 }
 .huh {
     margin-left: 50px;
     margin-right: 50px;
-    font-size: .75em;
-}
-section {
-    max-width: 600px;
+    font-size: 1.25em;
 }
 
-article {
-    display: flex;
-    flex-direction: row;
+.fish-title, .soda-title, .preston-title {
+    font-size: 1.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: 10px;
+    text-align: center;
 }
 
-article:nth-child(odd) {
-    flex-direction: row-reverse;
+.fish-motto, .soda-motto, .preston-motto {
+    font-size: .6em;
 }
 
-section img {
-    width: 400px;
-    height: auto;
+.soap-box {
+    width: 600px;
 }
 
-.data {
-    background-color: #77aeb1;
-    color: white;
+.soap-box article {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 5px;
+}
+
+.soap-box article:nth-child(1) img, .soap-box article:nth-child(3) img {
+    grid-column: 2/4;
+    width: 350px;
+}
+
+.soap-box article:nth-child(1) .data, .soap-box article:nth-child(3) .data {
+    grid-column: 1;
+    grid-row: 1;
+    width: 250px;
+}
+
+.soap-box article:nth-child(even) img {
+    grid-column: 1/3;
+    width: 350px;
+}
+
+.soap-box article:nth-child(even) .data {
+    grid-column: 3;
+    grid-row: 1;
+    width: 250px;
+}
 }

@@ -23,7 +23,7 @@ fetch(requestURL)
   const towns = jsonObject['towns'];
 
     h2.textContent = towns[0].name;
-    motto.textContent = 'Motto: ' + towns[0].motto;
+    motto.textContent = towns[0].motto;
     yearFounded.textContent = 'Year Founded: ' + towns[0].yearFounded;
     currentPopulation.textContent = 'Population: ' + towns[0].currentPopulation;
     averageRainfall.textContent = 'Average Rainfall: ' + towns[0].averageRainfall;
@@ -59,7 +59,7 @@ fetch(requestURL)
   const towns = jsonObject['towns'];
 
     h2.textContent = towns[2].name;
-    motto.textContent = 'Motto: ' + towns[2].motto;
+    motto.textContent = towns[2].motto;
     yearFounded.textContent = 'Year Founded: ' + towns[2].yearFounded;
     currentPopulation.textContent = 'Population: ' + towns[2].currentPopulation;
     averageRainfall.textContent = 'Average Rainfall: ' + towns[2].averageRainfall;
@@ -93,7 +93,7 @@ fetch(requestURL)
   const towns = jsonObject['towns'];
 
     h2.textContent = towns[6].name;
-    motto.textContent = 'Motto: ' + towns[6].motto;
+    motto.textContent = towns[6].motto;
     yearFounded.textContent = 'Year Founded: ' + towns[6].yearFounded;
     currentPopulation.textContent = 'Population: ' + towns[6].currentPopulation;
     averageRainfall.textContent = 'Average Rainfall: ' + towns[6].averageRainfall;
