@@ -80,33 +80,31 @@
                                 <option value="10">
                             </datalist><br>
                     <label for="stormRegion">Storm Region<br>
-                        <select name="regions" id="regionSelect" onchange="selectResponses()">
+                        <select name="regions" id="stormRegion" onchange="selectResponses()">
                                 <option value="" disabled selected>Select Region</option>
                                 <option value="preston">Preston</option>
                                 <option value="soda_springs">Soda Springs</option>
                                 <option value="fish_haven">Fish Haven</option>
                         </select>
                     </label><br><br>
-                    <label for="userDanger">User in Danger<br>
-                        <div class="radioSelector">
-                        <input type="radio" id="danger" name="user_danger" value="yes" checked>
-                    <label for="danger">yes   </label>
-                        <input type="radio" id="danger" name="user_danger" value="maybe">
-                    <label for="danger">maybe   </label>
-                        <input type="radio" id="danger" name="user_danger" value="no">
-                    <label for="danger">no</label>
-                    </label>
+                    <label for="yesDanger">User in Danger<br>
+                        <span class="radioSelector"></span><br>
+                        <input type="radio" id="yesDanger" name="user_danger" value="yes" checked></label>
+                    <label for="yesDanger">yes   </label>
+                        <input type="radio" id="maybeDanger" name="user_danger" value="maybe">
+                    <label for="maybeDanger">maybe   </label>
+                        <input type="radio" id="noDanger" name="user_danger" value="no">
+                    <label for="noDanger">no</label>
+                    
                         </div><br>
                     <label for="additionalInfo">Additional information or Comments<br>
-                        <input type="textarea"></label><br> 
+                        <input type="text" id="additionalInfo"></label><br> 
             </div>
-        </div>
+        
         <br>
         <div class="button">
-
-        <a href="thanks.html">
-        <input type="submit" id="submit" value="Submit"/>
-        </a>
+        <a href="thanks.html"></a>
+        <input type="submit" id="submit" value="Submit">
         </div>
     </form>
     </main>
