@@ -145,12 +145,12 @@
             grid-template-columns: 1fr 1fr;
         }
     
-        .contact-title-preston {
+        .contact-title {
             grid-column: 2;
             grid-row: 1;
         }
     
-        .contact-address-preston {
+        .contact-address {
             color: rgb(12, 73, 73);
         }
         .location {
@@ -158,7 +158,10 @@
             padding-left: 50px;
         }
     
-        .contact-address-preston {
+        .secondRow {
+            padding-left: 80px;
+        }
+        .contact-address {
             display: block;
             grid-column: 2;
             grid-row: 2;

@@ -159,7 +159,7 @@ main figure.heroimage img {
     padding-top: 0;
 }
 
-.weather-box {
+.weatherBox {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 1.25em;
     padding-bottom: .5em;
@@ -309,14 +309,14 @@ main .article .article-content {
     margin-right: .2em;
 }
 
-.contact-preston {
+.contact {
     display: block;
     width: 100%;
     margin: 10px;
 
 }
 
-.contact-title-preston {
+.contact-title {
     color:#eff1c6fa;
     font-family: 'Playfair+Display', Times, serif;
     font-size: 1.8em;
@@ -331,15 +331,11 @@ main .article .article-content {
     padding-right: 5px;
 }
 
-.second-row-preston {
-    margin-left: 80px;
-}
-
-.contact-info-preston a{
+.contact-info a{
     color:rgb(10, 51, 51)    
 }
 
-.contact-address-preston {
+.contact-address {
     display: none;
 }
 
@@ -441,7 +437,7 @@ form {
     padding-left: 2em;
     box-shadow: 2px 2px 4px #475e4e;
 }
-.contact-storm {
+.contact {
     background-color:rgb(32, 73, 73);
     color: #d2eca3;
     padding-top: 1.5em;

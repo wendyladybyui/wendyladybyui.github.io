@@ -146,23 +146,24 @@ main figure.article-image img {
     width: 300px;
 }
 
-.contact-title-preston {
+.contact-title {
     grid-column: 2;
     grid-row: 1;
 }
 
-
+.contact-address {
+    color: rgb(12, 73, 73);
+}
 .location {
     width: 30px;
     padding-left: 50px;
     margin-top: 0px;
 }
 
-.second-row-preston {
+.secondRow {
     padding-left: 80px;
 }
-.contact-address-preston {
-    color: rgb(12, 73, 73);
+.contact-address {
     display: block;
     grid-column: 2;
     grid-row: 2;
