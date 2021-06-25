@@ -505,7 +505,7 @@ form {
 }
 
 .huh {
-    color: #FA8072;
+    color: #963429;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: .75em;
     margin-left: 20px;
@@ -513,7 +513,7 @@ form {
 }
 
 .soap-box {
-    background-color: #77aeb1;
+    background-color: #365355;
     margin: .5rem auto;
     width: 400px;
 }
@@ -553,7 +553,7 @@ form {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #77aeb1;
+    background-color: #365355;
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;

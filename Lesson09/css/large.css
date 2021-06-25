@@ -280,7 +280,7 @@
 }
 
 .soap-box article:nth-child(2) {
-    color: #77aeb1;
+    color: #365355;
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -295,7 +295,7 @@
     grid-column: 2;
     grid-row: 2;
     width: 250px;
-    color: #77aeb1;
+    color: #365355;
     background-color: white;
 }
 
