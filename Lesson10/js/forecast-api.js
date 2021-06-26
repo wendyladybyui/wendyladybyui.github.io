@@ -1,17 +1,40 @@
 const cityID = '5604473';
-const AppID = '31aaf20b273a6018ac46f9ee393ae221';
-const cnt = 5;
+const APIkey = '31aaf20b273a6018ac46f9ee393ae221';
 
-const apiURL2 = `https://api.openweathermap.org/data/2.5/forecast/daily?id={cityID}&cnt={cnt}&appid={AppID}&units=imperial`;
+const myAPI = `https://api.openweathermap.org/data/2.5/forecast?id=${cityID}&appid=${APIkey}&units=imperial`;
 
-fetch(apiURL)
+fetch(myAPI)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
+    let day = 0;
+    const daysofweek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
-    const forecast = jsonObject['stations'];
+    const fiveDay = jsObject.list.filter( forecast => forecast.dt_txt.includes('18:00:00'));
+        console.log(fiveDay);
 
-    for (let i = 0; i < forecast.length; i++ ) {
+    fiveDay.forEach( x => {
+        let d = new Date(x.dt_txt);
+        console.log(d);
+        document.getElementById(`dayofWeek${day+1}`).textContent = daysofweek[d.getDay()];
+        document.getElementById(`forecast${day+1}`).textContent = x.main.temp.toFixed(0);
+        day++
+    } );
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+    for (let day = 0; day < forecast.length; day++ ) {
 
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
@@ -43,5 +66,5 @@ document.querySelector('div.cards').appendChild(card);
     const date = document.querySelector('#date');
     desc.textContent = jsObject.list[i].dt_txt;
 */
-    }
+    
 });

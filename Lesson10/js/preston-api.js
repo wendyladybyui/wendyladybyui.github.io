@@ -19,7 +19,8 @@ fetch(apiURL)
     windspeed.textContent = jsObject.wind.speed.toFixed(0);
     const windchill = document.querySelector('#windchill');
     const temp = jsObject.main.temp.toFixed(0);
-    windchill.textContent = ((35.74) + (0.6215 * temp)) - (35.75 * Math.pow(windspeed, 0.16)) + (0.4275 * temp * Math.pow(windspeed, 0.16));
+    const wspeed = jsObject.wind.speed.toFixed(0);
+    windchill.textContent = ((35.74) + (0.6215 * temp)) - (35.75 * Math.pow(wspeed, 0.16)) + (0.4275 * temp * Math.pow(wspeed, 0.16));
   });
 
   /*const cityid = '5604473';
