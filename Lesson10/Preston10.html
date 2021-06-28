@@ -16,10 +16,10 @@
     <script defer src="js/forecast-api.js"></script>
     <script src="./js/pancake.js"></script>
 </head>
-<div class="pancake hide">
-    Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
-</div>
 <body>
+    <div class="pancake hide">
+        Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+    </div>
     <header style="background-image: url(./images/header-big.jpg)" class="background-image">
         <img src="images/logo-png.png" alt="Watercolor sun and snowflake combined" class="logoImage">
         <H1 class="headerH1">Worldwide Weather Today</H1>
@@ -45,7 +45,11 @@
             <img src="images/hero-image.jpg" alt="hero"
                 srcset="images/hero-image-600.jpg 600w, 
                         images/hero-image-1100.jpg 1100w, 
-                        images/hero-image-1600.jpg 1600w">
+                        images/hero-image-1600.jpg 1600w"
+                sizes=" (max-width: 600px) 600px,
+                        (max-width: 1100px) 1100px,
+                        (max-width: 1600px) 1600px      
+                    ">
         </figure>
         <div class="hero-box">
             <h2 class="weather">Weather Summary</h2>
@@ -110,7 +114,11 @@
                 <img src="images/Preston_sign.png" alt="Preston Idaho Sign - Est 1900"
                     srcset="images/Preston_sign-small.jpg 600w, 
                             images/Preston_sign-400.jpg 1100w, 
-                            images/Preston_sign-600.jpg 1600w">
+                            images/Preston_sign-600.jpg 1600w"
+                    sizes=" (max-width: 600px) 600px,
+                            (max-width: 1100px) 1100px,
+                            (max-width: 1600px) 1600px      
+                        ">
             </figure>
             <h2 class="article-title">Idaho Day Celebration returning in June as three-day event</h2>
             <p class="article-content">The traditional Idaho Days celebration is returning to Franklin as a three-day family event in June, following a yearlong hiatus.<br>
