@@ -229,10 +229,6 @@ main figure.heroimage img {
     padding-right: 15px;
 }
 
-.foreicon {
-    display: none;
-}
-
 .hilo {
     display: flex;
     justify-content: center;
