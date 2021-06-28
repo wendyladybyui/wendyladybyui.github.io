@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
             weekday: 'long',
             year: 'numeric',
             day: 'numeric',
-            month: long
+            month: 'long'
         };
 
         let today = getDate.toLocaleDateString('en-us', dayOptions);

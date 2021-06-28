@@ -17,7 +17,9 @@ fetch(myAPI)
         let d = new Date(x.dt_txt);
         console.log(d);
         document.getElementById(`dayofWeek${day+1}`).textContent = daysofweek[d.getDay()];
-        document.getElementById(`forecast${day+1}`).textContent = x.main.temp.toFixed(0);
+        document.getElementById(`forecast${day+1}`).textContent = x.main.temp_max.toFixed(0);
+        document.getElementById(`forecastlo${day+1}`).textContent = x.main.temp_min.toFixed(0);
+        document.getElementById(`foredesc${day+1}`).textContent = x.weather[0].description.toUpperCase();
         day++
     } );
 
