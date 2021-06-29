@@ -545,6 +545,7 @@ form {
     background-color:#d2eca3;
     color: rgb(32, 73, 73);
     padding-top: .5em;
+    padding-bottom: 1em;
 }
 
 #stormSeverity {
