@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <meta name="description" content="Gallery of weather Images | Worldwide Weather Today">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="css/weathersite.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script src="./js/year.js"></script>
+    <script src="js/days.js"></script>
+</head>
+<body>
+    <header style="background-image: url(./images/header-big.jpg)" class="background-image">
+
+        <img src="./images/logo-png.png" alt="Watercolor sun and snowflake combined" class="logoImage">
+        <H1 class="headerH1">Worldwide Weather Today</H1>
+        <hr class="headerHR">
+        <p class="headerP"><strong>Whether you are traveling around the block or around the world, <br>get the info you need before you go!</strong></p>
+    </header>
+    <div class="visit"><span id="lastvisit"></span> days since last visit.</div>
+    <nav>
+        <ul class="headermenu">
+            <li><a class="hamburger " href="#">Menu</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./preston.html">Preston</a></li>
+            <li><a href="./soda.html">Soda Springs</a></li>
+            <li><a href="./fishy.html"> Fish Haven</a></li>
+            <li><a href="./stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html" class="active-page">Gallery</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h1>Weather Gallery</h1>
+        <div class="gallery">
+            <figure class="pic1 pics">
+            <img src="images/placeholder.jpg" data-src="./images/optimized/narrow/Delaware-600.jpg " alt="Deleware Water Gap" class="js-lazy-load">
+            <figcaption>Delaware Shore</figcaption>
+            </figure>
+        <figure class="pic2 pics">
+            <img src="images/placeholder.jpg" data-src="images/optimized/narrow/clouds-600.jpg" alt="Clouds" class="js-lazy-load">
+            <figcaption>Cloudy with a chance of Meatballs</figcaption>
+        </figure>
+        <figure class="pic3 pics">
+            <img src="images/placeholder.jpg" data-src="images/optimized/narrow/hurricaine-600.jpg" alt="Hurricaine" class="js-lazy-load">
+    <figcaption>Into the Storm</figcaption>
+        </figure>
+        <figure class="pic4 pics">
+            <img src="images/placeholder.jpg" data-src="images/optimized/medium/field-600.jpg" alt="Field" class="js-lazy-load">
+            <figcaption>Field of Dreams</figcaption>
+        </figure>
+        <figure class="pic5 pics">
+            <picture>
+            <img src="images/placeholder.jpg" data-src="images/optimized/medium/flood-600.jpg" alt="Flood" class="js-lazy-load">
+                </picture>
+            <figcaption>The Day After Tomorrow</figcaption>
+        </figure>
+        <figure class="pic6 pics">
+            <img src="images/placeholder.jpg" data-src="images/optimized/medium/shelf-cloud-600.jpg" alt="Shelf Cloud" class="js-lazy-load">
+            <figcaption>Twister</figcaption>
+        </figure>
+        <figure class="pic7 pics">
+            <img src="images/placeholder.jpg" data-src="images/optimized/tall/lightening-600.jpg" alt="Lightening" class="js-lazy-load">
+            <figcaption>Percy Jackson: The Lightening Thief</figcaption>
+        </figure>
+        <figure class="pic8 pics">
+            <img src="images/placeholder.jpg" data-src="images/optimized/tall/rainbow-weather-600.jpg" alt="Rainbow" class="js-lazy-load">
+            <figcaption>Somewhere Over the Rainbow</figcaption>
+        </figure>
+        <figure class="pic9 pics">
+            <img src="images/placeholder.jpg" data-src="images/optimized/tall/sun-600.jpg" alt="Sun" class="js-lazy-load"
+            >
+            <figcaption>Under the Tuscan Sun</figcaption>
+        </figure>
+        </div>
+        <script src="js/Lewis.js" defer></script>
+    </main>    
+    <footer>
+        <div class="footer-content">
+            © <span id="NewYear"></span> | Wendy Strickland | Utah | <a href="https://www.byui.edu/online" target="_blank" class="BYUI2">BYUI Online Learning</a><br>
+            Current Date: <span id="currentdate"></span><br>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+    </body>
+    </html>
