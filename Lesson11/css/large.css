@@ -58,7 +58,7 @@
             right: 57%;
         }
 
-        .ss-hero-box {
+        .ss-hero-box, .fishy-hero-box {
             max-width: 400px;
             padding: 20px;
             opacity: 70%;
@@ -67,17 +67,8 @@
             left: 55%;
         }
     
-        .weather-box, .ss-hero-box {
+        .weather-box, .ss-hero-box, .fishy-hero-box {
             padding-left: .2em;
-        }
-    
-        .grid {
-            width: 80%;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-            grid-template-rows: auto;
-            margin-left: auto;
-            margin-right: auto;
         }
     
         .row2 {
@@ -238,6 +229,11 @@
         padding-top: 8px;
         padding-bottom: 15px;
         margin-bottom: 25px;
+    }
+
+    .pics:hover {
+        padding: 10px;
+        box-shadow: 2px 2px 4px rgb(12, 73, 73);
     }
 
     /* storm page css */

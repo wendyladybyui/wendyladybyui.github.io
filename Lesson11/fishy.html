@@ -4,22 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WorldWide Weather Today</title>
-    <meta name="description" content="Preston, ID | News | Weather | More! ">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Fish Haven</title>
+    <meta name="description" content="Fish Haven, ID | News | Weather | More! ">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/weathersite.css">
     <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
     <script src="./js/year.js"></script>
-    <script src="./js/preston.js"></script>
-    <script defer src="js/forecast-api.js"></script>
-    <script src="./js/pancake.js"></script>
+    <script defer src="./js/fishy-forecast-api.js"></script>
 </head>
 <body>
-    <div class="pancake hide">
-        Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
-    </div>
     <header style="background-image: url(./images/header-big.jpg)" class="background-image">
         <img src="images/logo-png.png" alt="Watercolor sun and snowflake combined" class="logoImage">
         <H1 class="headerH1">Worldwide Weather Today</H1>
@@ -31,7 +26,7 @@
         <ul class="headermenu">
             <li><a class="hamburger" href="#">Menu</a></li>
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./Preston10.html">Preston</a></li>
+            <li><a href="./preston.html">Preston</a></li>
             <li><a href="soda.html">Soda Springs</a></li>
             <li><a href="fishy.html" class="active-page"> Fish Haven</a></li>
             <li><a href="./stormcenter.html">Storm Center</a></li>
@@ -40,21 +35,21 @@
     </nav>
     
     <main>
-        <H1><strong>Preston, Idaho</strong></H1>
-        <figure class="heroimage">
-            <img src="images/hero-image.jpg" alt="hero"
-                srcset="images/hero-image-600.jpg 600w, 
-                        images/hero-image-1100.jpg 1100w, 
-                        images/hero-image-1600.jpg 1600w"
+        <H1><strong>Fish Haven, Idaho</strong></H1>
+        <figure class="fishy-heroimage">
+            <img src="images/fishy-hero-image.jpg" alt="hero"
+                srcset="images/fishy-hero-image-600.jpg 600w, 
+                        images/fishy-hero-image-1100.jpg 1100w, 
+                        images/fishy-hero-image-1600.jpg 1600w"
                 sizes=" (max-width: 600px) 600px,
                         (max-width: 1100px) 1100px,
                         (max-width: 1600px) 1600px      
                     ">
         </figure>
-        <div class="hero-box">
-            <h2 class="weather">Weather Summary</h2>
-            <hr class="hero-hr">
-                <table class="weather-box">
+        <div class="fishy-hero-box">
+            <h2 class="fishy-weather">Weather Summary</h2>
+            <hr class="fishy-hero-hr">
+                <table class="fishy-weather-box">
                     <tr>
                         <td class="left">CURRENTLY:    </td><td class="right"><span id="current-temp"></span></td>
                     </tr>
@@ -70,51 +65,51 @@
                     <tr>
                         <td class="left">WIND SPEED:     </td><td class="right"><span id="wind-speed"></span>mph</td>
                     </table>
-            <script src='js/preston-api.js'></script>
+            <script src='js/fishy-weather-api.js'></script>
             
         </div>
         <div>
-                        <div class="r1">
+                        <div class="fishy-r1">
                             <strong>5 Day Forecast</strong></div>         
-                        <div class="fivedaydrop">
+                        <div class="fishy-fivedaydrop">
                         <div class="box">
-                            <div id="dayofWeek1" class="forday"></div>
+                            <div id="dayofWeek1" class="fishy-forday"></div>
                             <div id="icon1"></div>
-                            <div class="hilo">Hi <span id= 'forecast1' class="forecastnumber"></span>&#176; F/Lo <span id='forecastlo1'></span>&#176; F</div>
-                            <div id= "foredesc1"></div>
+                            <div class="fishy-hilo">Hi <span id= 'forecast1' class="forecastnumber"></span>&#176; F/Lo <span id='forecastlo1'></span>&#176; F</div>
+                            <div id= "foredesc1" class="fishy-desc"></div>
                         </div>
                         <div>
-                            <div id="dayofWeek2" class="forday"></div>
+                            <div id="dayofWeek2" class="fishy-forday"></div>
                             <div id="icon2"></div>
-                            <div class="hilo">Hi <span id= 'forecast2' class="forecastnumber"></span>&#176; F/Lo <span id='forecastlo2'></span>&#176; F</div>
-                            <div id= "foredesc2"></div>
+                            <div class="fishy-hilo">Hi <span id= 'forecast2' class="forecastnumber"></span>&#176; F/Lo <span id='forecastlo2'></span>&#176; F</div>
+                            <div id= "foredesc2" class="fishy-desc"></div>
                         </div>
                         <div>
-                            <div id="dayofWeek3" class="forday"></div>
+                            <div id="dayofWeek3" class="fishy-forday"></div>
                             <div id="icon3"></div>
-                            <div class="hilo">Hi <span id= 'forecast3' class="forecastnumber"></span>&#176; F/Lo <span id='forecastlo3'></span>&#176; F</div>
-                            <div id = "foredesc3"></div>
+                            <div class="fishy-hilo">Hi <span id= 'forecast3' class="forecastnumber"></span>&#176; F/Lo <span id='forecastlo3'></span>&#176; F</div>
+                            <div id = "foredesc3" class="fishy-desc"></div>
                         </div>
                         <div>
-                            <div id="dayofWeek4" class="forday"></div>
+                            <div id="dayofWeek4" class="fishy-forday"></div>
                             <div id="icon4"></div>
-                            <div class="hilo">Hi <span id= 'forecast4' class="forecastnumber"></span>&#176; F/Lo <span id='forecastlo4'></span>&#176; F</div>
-                            <div id = "foredesc4"></div>
+                            <div class="fishy-hilo">Hi <span id= 'forecast4' class="forecastnumber"></span>&#176; F/Lo <span id='forecastlo4'></span>&#176; F</div>
+                            <div id = "foredesc4" class="fishy-desc"></div>
                         </div>
                         <div>
-                            <div id="dayofWeek5" class="forday"></div>
+                            <div id="dayofWeek5" class="fishy-forday"></div>
                             <div id="icon5"></div>
-                            <div class="hilo">Hi <span id= 'forecast5' class="forecastnumber"></span>&#176; F/Lo <span id='forecastlo5'></span>&#176; F</div>
-                            <div id = "foredesc5"></div>
+                            <div class="fishy-hilo">Hi <span id= 'forecast5' class="forecastnumber"></span>&#176; F/Lo <span id='forecastlo5'></span>&#176; F</div>
+                            <div id = "foredesc5" class="fishy-desc"></div>
                         </div>
                         </div>
         </div>
-        <div class="article">
+        <div class="fishy-article">
             <figure class="article-image">
-                <img src="images/Preston_sign.png" alt="Preston Idaho Sign - Est 1900"
-                    srcset="images/Preston_sign-small.jpg 600w, 
-                            images/Preston_sign-400.jpg 1100w, 
-                            images/Preston_sign-600.jpg 1600w"
+                <img src="images/fishy-article.jpg" alt="Preston Idaho Sign - Est 1900"
+                    srcset="images/fishy-article-600.jpg 600w, 
+                            images/fishy-article-400.jpg 1100w, 
+                            images/fishy-article-600.jpg 1600w"
                     sizes=" (max-width: 600px) 600px,
                             (max-width: 1100px) 1100px,
                             (max-width: 1600px) 1600px      
@@ -136,13 +131,13 @@
                 Sponsors of the event include the City of Franklin and Franklin Lions Club. Franklin’s annual celebration of its founding was canceled last year due to the Covid-19 pandemic. Until last year, the community’s 1860 birth had been celebrated yearly since 1910.</p>
         </div>
     </main>
-    <div class="footer1">
-        <div class="contact-preston">
-            <h2 class="contact-title-preston">Contact Information</h2>
-            <div class="contact-info-preston">
-                <div class="contact-address-preston">
+    <div class="fishy-footer1">
+        <div class="contact-fishy">
+            <h2 class="contact-title-fishy">Contact Information</h2>
+            <div class="contact-info-fishy">
+                <div class="contact-address-fishy">
                     <img src="images/location-icon.png" alt="location contacticons" class="location"><span>1234 Fifth Ave</span><br>
-                    <div class="second-row-preston">Sixton, SV 89101</div>
+                    <div class="second-row-fishy">Fish Haven, ID 89101</div>
                 </div>
                 <img src="images/email.png" class="contacticons emailicon" alt="email icon"><a href="mailto:info@prestontown.gov">info@prestontown.gov</a><br>
                 <img src="images/phone-icon.png" class="contacticons phoneicon" alt="phone icon"><a href="Tel:123-456-7890">(123)456-7890</a>
