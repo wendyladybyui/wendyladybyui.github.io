@@ -1,7 +1,7 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');*/
 
 .pancake {
-    background-color:#ef6429;
+    background-color:#f3520d;
     color:#f3f5ce;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     padding: 5px;
@@ -169,7 +169,7 @@ main figure.fishy-heroimage img {
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 0;
-    background-color:#ef6429;
+    background-color:#f04f0b;
     color:white;
     opacity: 100%;
 }
@@ -315,7 +315,7 @@ main figure.fishy-heroimage img {
     flex-wrap: wrap;
     justify-content: space-evenly;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    color: #99d1f2;
+    color: #0c4f75;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
@@ -386,7 +386,7 @@ main figure.fishy-heroimage img {
 .fishy-foreday {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 1.5em;
-    color: white;
+    color: #0c4f75;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -411,7 +411,7 @@ main figure.fishy-heroimage img {
 .fishy-hilo {
     display: flex;
     justify-content: center;
-    color:#5f8c8f;
+    color:#0c4f75;
 }
 .ss-desc {
     display: flex;
@@ -422,7 +422,7 @@ main figure.fishy-heroimage img {
 .fishy-desc {
     display: flex;
     justify-content: center;
-    color:#99d1f2;
+    color:#5f8c8f;
 }
 
 .row5 {
