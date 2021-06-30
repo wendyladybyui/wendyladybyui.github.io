@@ -1,7 +1,7 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');*/
 
 .pancake {
-    background-color:#f3520d;
+    background-color:#862f09;
     color:#f3f5ce;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     padding: 5px;
@@ -169,7 +169,7 @@ main figure.fishy-heroimage img {
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 0;
-    background-color:#f3520d;
+    background-color:#862f09;
     color:white;
     opacity: 100%;
 }
@@ -194,7 +194,7 @@ main figure.fishy-heroimage img {
 }
 .ss-forecast-box {
     background-color: #f6f7e8;
-    border: 1px solid #f3520d;
+    border: 1px solid #862f09;
     max-width: 1125px;
     display: block;
     padding: 10px;
@@ -340,7 +340,7 @@ main figure.fishy-heroimage img {
 .r1 {
     font-family:  'Playfair+Display', Times, serif;
     font-size: 2em;
-    color:#ef6429;
+    color:#862f09;
     text-align: center;
 }
 
@@ -374,7 +374,7 @@ main figure.fishy-heroimage img {
 .ss-foreday {
         font-family: 'Montserrat', Arial, Helvetica, sans-serif;
         font-size: 1.5em;
-        background-color:#ef6429;
+        background-color:#862f09;
         color: white;
         text-align: center;
         padding-top: 10px;
@@ -405,7 +405,7 @@ main figure.fishy-heroimage img {
 .ss-hilo {
     display: flex;
     justify-content: center;
-    color:#ef6429;
+    color:#862f09;
 }
 
 
@@ -417,13 +417,13 @@ main figure.fishy-heroimage img {
 .ss-desc {
     display: flex;
     justify-content: center;
-    color:#ef6429;
+    color:#862f09;
 }
 
 .fishy-desc {
     display: flex;
     justify-content: center;
-    color:#5f8c8f;
+    color:#417275;
 }
 
 .row5 {
@@ -545,6 +545,10 @@ main .fishy-article .fishy-article-content {
     color: white;
     margin-left: .2em;
     margin-right: .2em;
+}
+
+footer .footer-content a{
+    color: #0a3c3f;
 }
 
 .contact, .contact-fishy {
