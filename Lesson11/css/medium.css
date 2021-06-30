@@ -80,7 +80,7 @@
         box-shadow: 2px 2px 4px #77aeb1;
     }
 
-    .footer1 {
+    .footer1, .fishy-footer1 {
         width: 100%;
         max-height: 250px;
         margin-bottom: 2px;
@@ -121,15 +121,21 @@
         color: rgb(12, 73, 73);
     }
 
+    .contact-address-fishy {
+        color: white;
+    }
+
     .location {
         width: 30px;
         padding-left: 50px;
         margin-top: 0px;
     }
 
-    .secondRow {
+    .second-row, .second-row-fishy {
         padding-left: 80px;
     }
+
+    
 
     .contact-address {
         display: block;
