@@ -636,11 +636,11 @@ footer {
     padding-left: 80px;
 }
     
-.BYUI2 {
+.BYUI2, .tc {
     color: #0e165c;
 }
 
-.BYUI2:hover {
+.BYUI2:hover .tc:hover{
     color: #0e165c79;
 }
 
@@ -696,7 +696,10 @@ form {
 }
 
 .grid {
-    display: block;
+    display: flex;
+    grid-gap: .5em;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .form {

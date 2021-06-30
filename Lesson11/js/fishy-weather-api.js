@@ -20,7 +20,19 @@ fetch(fhweaURL)
     const windchill = document.querySelector('#windchill');
     const temp = jsObject.main.temp.toFixed(0);
     const wspeed = jsObject.wind.speed.toFixed(0);
-    windchill.textContent = ((35.74) + (0.6215 * temp)) - (35.75 * Math.pow(wspeed, 0.16)) + (0.4275 * temp * Math.pow(wspeed, 0.16));
+    windchill.textContent = windChillCalc(wspeed);
+
+    function windChillCalc(wspeed) {
+      let wc;
+      if (temp > 50 || windSpeed < 3) {
+        wc = "-- ";
+      } else {
+        wc = parseInt((35.74 + (0.6215 * temp)) - 
+        (35.75 * Math.pow(wspeed, 0.16)) + 
+        (0.4275 * temp * Math.pow(wspeed, 0.16)));
+      }
+      return wc;
+    }
   });
 
   

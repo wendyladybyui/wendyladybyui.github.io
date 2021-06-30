@@ -239,10 +239,11 @@
 
     /* storm page css */
     .grid {
-        display: grid;
-        grid-gap: .5em;
-        grid-template-columns: repeat(auto-fit, 1fr);
-        grid-template-rows: repeat(auto-fit, 1fr);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 150px;
+        margin-top: 25px;
     }
     
 

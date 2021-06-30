@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
     <script src="./js/year.js"></script>
-    <script src="js/days.js"></script>
 </head>
 <body>
     <header style="background-image: url(./images/header-big.jpg)" class="background-image">
@@ -21,8 +20,9 @@
         <H1 class="headerH1">Worldwide Weather Today</H1>
         <hr class="headerHR">
         <p class="headerP"><strong>Whether you are traveling around the block or around the world, <br>get the info you need before you go!</strong></p>
-    </header>
-    <div class="visit"><span id="lastvisit"></span> days since last visit.</div>
+    <div class="visit"><span id="lastvisit"></span></div>
+    <script defer src="js/days.js"></script>
+     </header>
     <nav>
         <ul class="headermenu">
             <li><a class="hamburger " href="#">Menu</a></li>
@@ -83,7 +83,7 @@
     <footer>
         <div class="footer-content">
             © <span id="NewYear"></span> | Wendy Strickland | Utah | <a href="https://www.byui.edu/online" target="_blank" class="BYUI2">BYUI Online Learning</a><br>
-            Current Date: <span id="currentdate"></span><br>
+            Current Date: <span id="currentdate"></span> | <span class="terms"><a href="https://www.termsfeed.com/live/e0e92067-5f2d-491f-bea8-eb3a8b50ed43" target="_blank" class="tc">Terms and Conditions</a></span><br>
         </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
