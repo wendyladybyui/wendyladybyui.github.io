@@ -61,10 +61,17 @@
         .ss-hero-box, .fishy-hero-box {
             max-width: 400px;
             padding: 20px;
-            opacity: 70%;
             position: absolute;
             top: 60%;
             left: 55%;
+        }
+
+        .fishy-hero-box {
+            opacity: 85%;
+        }
+
+        .ss-hero-box {
+            opacity: 60%;
         }
     
         .weather-box, .ss-hero-box, .fishy-hero-box {
