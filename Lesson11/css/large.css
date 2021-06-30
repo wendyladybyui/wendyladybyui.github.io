@@ -281,6 +281,8 @@
     grid-row: 1;
     width: 350px;
     padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .soap-box article:nth-child(1) .data {
@@ -305,7 +307,7 @@
     grid-column: 2;
     grid-row: 2;
     width: 250px;
-    color: #77aeb1;
+    color: #2d5052;
     background-color: white;
 }
 
@@ -315,6 +317,8 @@
     grid-row: 1;
     width: 350px;
     padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .soap-box article:nth-child(3) .data {

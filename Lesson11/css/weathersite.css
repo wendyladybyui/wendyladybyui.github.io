@@ -40,7 +40,7 @@ header .background-image {
 }
 
 .headerH1 {
-    color: #ef6429;
+    color: #f3520d;
     opacity: 85%;
     text-shadow:0 4px 5px #f3f88e;
     font-family: 'Playfair+Display', Times, serif;
@@ -169,7 +169,7 @@ main figure.fishy-heroimage img {
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 0;
-    background-color:#f04f0b;
+    background-color:#f3520d;
     color:white;
     opacity: 100%;
 }
@@ -193,7 +193,8 @@ main figure.fishy-heroimage img {
     text-align: center;
 }
 .ss-forecast-box {
-    background-color: #f2f3d7;
+    background-color: #f6f7e8;
+    border: 1px solid #f3520d;
     max-width: 1125px;
     display: block;
     padding: 10px;
@@ -773,7 +774,7 @@ form {
 }
 
 .huh {
-    color: #FA8072;
+    color: #832f26;
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: .75em;
     margin-left: 20px;
@@ -781,7 +782,7 @@ form {
 }
 
 .soap-box {
-    background-color: #77aeb1;
+    background-color: #2d5052;
     margin: .5rem auto;
     width: 400px;
 }
@@ -821,8 +822,6 @@ form {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #77aeb1;
+    background-color: #2d5052;
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
