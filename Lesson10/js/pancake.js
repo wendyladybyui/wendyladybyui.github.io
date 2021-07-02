@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-        let day = newDate();
+        let day = new Date();
         let dayOptions = {
             weekday: 'long',
             year: 'numeric',

@@ -20,14 +20,24 @@
         background-size: cover;
         background-color: #f3f5f3;
     }
+    header {
+        display: grid;
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 1fr 1fr;
+    }
 
-    .headerH1 {
-        font-size: 1.85rem; 
-        padding-top: 35px;
+    .headerH1{
+        font-size: 2rem; 
+        padding-left: 75px;
+        grid-column: 2;
+        grid-row: 1;
     }
     
     .headerP {
         font-size: .68rem;
+        padding-left: 75px;
+        grid-column: 2;
+        grid-row: 2;
     }
 
     .headermenu {
@@ -71,6 +81,7 @@
         padding-bottom: 20px;
     }
 
+    
     main figure.article-image img {
         float: right;
         width: 40%;
