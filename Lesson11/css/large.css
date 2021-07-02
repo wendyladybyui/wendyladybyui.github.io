@@ -259,8 +259,25 @@
     font-size: 2.5em;
 }
 .huh {
-    margin-left: 250px;
-    margin-right: 250px;
+   display: grid;
+   grid-template-columns: 25% 75%;
+   grid-column-gap: 100px;
+}
+
+.sip {
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-top: -25px;
+}
+
+.theDeets {
+    grid-column: 2;
+    grid-row: 1;
+    padding-left: 20px;
+    padding-right: 100px;
+    padding-top: 20px;
 }
 
 .fish-title, .soda-title, .preston-title {
