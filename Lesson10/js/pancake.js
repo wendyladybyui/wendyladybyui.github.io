@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-        
+        const day = new Date();
         let dayOptions = {
             weekday: 'long',
             year: 'numeric',
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
             month: 'long'
         };
 
-        let today = getDate.toLocaleDateString('en-us', dayOptions);
+        let today = day.toLocaleDateString('en-us', dayOptions);
 
         if (today = 'Friday') {
            pancake();

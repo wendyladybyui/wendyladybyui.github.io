@@ -428,29 +428,39 @@ main figure.fishy-heroimage img {
     justify-content: center;
 }
 
-.divide, .so-divide {
+.so-da {
     display: block;
 }
-.events {
-   text-align: center;
-   color: white;
-   padding-bottom: 10px;
-   padding-top: 10px;
-   max-width: 850px;
-   margin-right: auto;
-   margin-left: auto;
+
+.divide {
+    display: block;
 }
 
 .sodaevents {
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    max-width: 850px;
     background-color: #862f09;
 }
 
 .fishyevents {
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    max-width: 850px;
     background-color: #417275;
     margin-top: 10px;
 }
 
 .prestonevents {
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    max-width: 850px;
     background-color: #F1F5A9;
     color: #475e4e;
 }
