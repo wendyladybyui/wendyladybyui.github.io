@@ -1,0 +1,91 @@
+@media screen and (min-width: 32.5em) {
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+.head-nav-list {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+
+#menuToggle {
+    display: flex;
+    flex-wrap: column;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-left: -50px;
+    -webkit-user-select: text;
+    user-select: auto;
+}
+
+#menuToggle a {
+    text-decoration: none;
+    color: white;
+    transition: none;
+}
+
+#menuToggle  a:active {
+    background-color: white;
+    color:#304C79;
+}
+
+#menuToggle a:hover {
+  color: #e77762;
+}
+
+#menuToggle input {
+    display: none;
+    -webkit-touch-callout: default;
+}
+
+#menuToggle span {
+  display: none;
+  transition: none;
+}
+
+
+#menu
+{
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  background: #304C79;
+  list-style-type: none;
+  transform: none;
+}
+
+#menu li
+{
+  padding-left: 50px;
+}
+
+.old-glory {
+  margin-top: 70px;
+  padding-left: 10px;
+}
+.why h3 {
+  margin-top: 100px;
+  margin-left: 420px;
+}
+
+.floater {
+  width: 400px;
+  float:left;
+  padding-right: 20px;
+  margin-top: -125px;
+}
+
+}

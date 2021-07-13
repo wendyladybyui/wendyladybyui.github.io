@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draper City  |  Chamber of Commerce  |  Home </title>
+    <meta name="description" content="Chamber of Commerce site for the city of Draper, Utah">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/draper.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+</head>
+<body>
+    <header>
+        <div class="header-layout">
+        <H1>HOME OF</H1>
+        <img src="images/logo-200.jpg" alt="Draper City Logo" class="logo-image">
+        <H2 class="down-you-go">CHAMBER OF COMMERCE</H2>
+        <table class="current-weather">
+            <thead>
+                <tr>
+                    <td colspan="2"><h4>Current Weather in Draper</h4></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CURRENTLY:</td><td><span id="current-temp"></span>&#176; F</td>
+                </tr>
+                <tr>
+                    <td>HUMIDITY:</td><td><span id="humidity"></span>%</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><span id="description"></span></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+</div>
+        <script src="js/current-weather.js"></script>
+        <nav role="navigation">
+            <div id="menuToggle">
+              <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            <ul class="head-nav-list" id="menu">
+                <li><a href="index.html" class="nav-active">Home</a></li>
+                <li><a href="city.html">City</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <div class="flex-this">
+            <div class="join-today">
+                <span class="join">Join</span><br>
+                <span class="today">Today</span><br>
+                <button type="button" class="redirect"><a href="join.html"> Join Draper Chamber of Commerce!</a></button>
+            </div>
+
+            <div class="mountain-view">
+                <img src="images/suspension-bridge.jpg" alt="Flag hanging off the Bear Canyon Suspension Bridge" class="old-glory">
+            </div>
+            <div class="upcoming">
+                <ul>
+                    
+                </ul>
+            </div>
+        </div>    
+
+            <div class="forecast">
+                <div class="weather-r1">
+                    <strong>3 Day Forecast</strong></div>         
+                <div class="weather-forecast">
+                <div class="box box1">
+                    <div id="dayofWeek1" class="draper-forday"></div>
+                    <div id="icon1"></div>
+                    <div class="draper-temp"><span id= 'forecast1' class="forecastnumber"></span>&#176; F</div>
+                    <div id= "foredesc1" class="draper-desc"></div>
+                </div>
+                <div class="box box2">
+                    <div id="dayofWeek2" class="draper-forday"></div>
+                    <div id="icon2"></div>
+                    <div class="draper-temp"><span id= 'forecast2' class="forecastnumber"></span>&#176; F</div>
+                    <div id= "foredesc2" class="draper-desc"></div>
+                </div>
+                <div class="box box3">
+                    <div id="dayofWeek3" class="draper-forday"></div>
+                    <div id="icon3"></div>
+                    <div class="draper-temp"><span id= 'forecast3' class="forecastnumber"></span>&#176; F</div>
+                    <div id = "foredesc3" class="draper-desc"></div>
+                </div>
+                <script defer src="js/draperweather.js"></script>
+                
+                <table class="whats-up">
+                    <thead>
+                        <tr>
+                            <td class="heads-up" colspan="3">Upcoming Events</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>July 17</td>
+                            <td>Draper Days Car Show</td>
+                            <td>Draper Park</td>
+                        </tr>
+                        <tr>
+                            <td>July 9-24</td>
+                            <td>The Lion King</td>
+                            <td>Draper Historic Theatre</td>
+                        </tr>
+                        <tr>
+                            <td>July 12-13</td>
+                            <td>Mountain Springs Music</td>
+                            <td>Juan Diego</td>
+                        </tr>
+                        <tr>
+                            <td>July 11-19</td>
+                            <td>Shark Week</td>
+                            <td>Loveland Living Planet Aquarium</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="why">
+                <h3>Draper Area Chamber of Commerce</h3>
+                <p><img src="images/draper-city-hall-400.jpg" alt="Draper City Hall" class="floater">The Draper Area Chamber of Commerce has been serving Draper businesses since 1995. With nearly 250 members, the Draper Chamber offers networking opportunities for business leaders, and business resources for training and education. Visit the Chamber website to see all the upcoming events and learning opportunities. </p>
+            </div>
+            <div class="slideshow-container">
+                <div class="local-businesses">
+                    <h2 class="talking-time">Local Businesses</h2>
+                    <div class="businesses fade">
+                        <img src="images/pac.jpg" style="width:100%">
+                        <div class="text">208 E 12300 S #118<br>(801)662-0009</div>
+                    </div>
+                    
+                    <div class="businesses fade">
+                        <img src="images/keto-chow.jpg" style="width:100%">
+                        <div class="text">12577 So 265 W Ste 4A<br>(385)645-5386</div>
+                    </div>
+                    
+                    <div class="businesses fade">
+                        <img src="images/sparkle-in-pink-1100.jpg" style="width:100%">
+                        <div class="text">313 W 12800 So #308<br>(866)328-9752</div>
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+                </div> 
+            <script src="js/slide.js"></script>       
+            </div>
+    </main>
+    <footer>
+        <nav class="foot-nav">
+
+        </nav>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>    
+</body>
+</html>
