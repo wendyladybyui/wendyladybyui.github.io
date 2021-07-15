@@ -54,6 +54,11 @@
             </ul>
         </nav>
         </div>
+        <div class="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            <span class="weather-alerts"></span>
+            // <script src="js/alerts.js"></script>
+          </div>
     </header>
     <main>
         <div class="flex-this">
@@ -136,17 +141,17 @@
                     <h2 class="talking-time">Local Businesses</h2>
                     <div class="businesses fade">
                         <img src="images/pac.jpg" style="width:100%">
-                        <div class="text">208 E 12300 S #118<br>(801)662-0009</div>
+                        <div class="text">208 E 12300 S #118<br>Draper, UT<br>(801)662-0009</div>
                     </div>
                     
                     <div class="businesses fade">
                         <img src="images/keto-chow.jpg" style="width:100%">
-                        <div class="text">12577 So 265 W Ste 4A<br>(385)645-5386</div>
+                        <div class="text">12577 So 265 W Ste 4A<br>Draper, UT<br>(385)645-5386</div>
                     </div>
                     
                     <div class="businesses fade">
-                        <img src="images/sparkle-in-pink-1100.jpg" style="width:100%">
-                        <div class="text">313 W 12800 So #308<br>(866)328-9752</div>
+                        <img src="images/sparkle-in-pink.jpg" style="width:100%">
+                        <div class="text">313 W 12800 So #308<br>Draper, UT<br>(866)328-9752</div>
                     </div>
                     
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -164,10 +169,25 @@
             </div>
     </main>
     <footer>
-        <nav class="foot-nav">
-
-        </nav>
+       <div class="foot-flex">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97093.69203342513!2d-111.92250593211558!3d40.49344950960342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752805153135f0f%3A0xea3aa3af26cf70b2!2sDraper%2C%20UT!5e0!3m2!1sen!2sus!4v1626190363138!5m2!1sen!2sus" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <ul>
+            <li><strong>Contact Information</strong></li>
+            <li>1160 So Pioneeer Road</li>
+            <li>Draper, UT 84020</li>
+            <li>(801) 553-0928</li>
+        </ul>
+        <div class="be-social">
+            <a href="https://www.facebook.com/places/Things-to-do-in-Draper-Utah/105571529476024/"><img src="images/fb-logo.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/drapercity/"><img src="images/ig-logo.png" alt="instagram"></a>
+        </div>
+       </div>
     </footer>
+    <div class="sub-foot">
+        © <span id="NewYear"></span> Draper Chamber of Commerce | Wendy Strickland | WDD230<br>
+        Current Date: <span id="currentdate"></span> | <span class="terms"><a href="https://www.termsfeed.com/live/53a350ac-d1c9-471a-8ca2-25569d76a2ab" target="_blank" class="tc">Terms and Conditions</a></span><br>
+        <script src="js/year.js"></script>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webfont.js"></script>    
 </body>

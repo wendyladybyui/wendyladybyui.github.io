@@ -21,7 +21,7 @@
 
         <nav role="navigation">
             <div id="menuToggle">
-              <input type="checkbox" />
+              <input type="checkbox">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -35,7 +35,116 @@
             </div>
         </nav>
     </header>
+    <main>
+        <h2 class="fancy"><div class="join">Join</div><div class="move-left"> the Draper City Chamber of Commerce </div><div class="today move-down">Today!</div></h2>
+        <div class="join-the-flex">
+                <form action="thanks.html">
+                    <div class="join-form">
+                            <label for="firstName">First Name <br>
+                                <input id="firstName" type="text" minlength="2" name="first_name" pattern="[A-Z a-z]+" required></label><br>
+                            <label for="lastName">Last Name<br>
+                                <input id="lastName" type="text" name="last_name" pattern="[A-Z a-z]+" required></label><br>
+                            <label for="title">Title<br>
+                                <input id="title" type="text" name="name_title" pattern="[A-Z a-z]+"></label><br>
+                            <label for="email">Email<br>
+                                <input id="email" type="email" name="email_addy" placeholder="someone@something.com" required></label><br>
+                             <label for="cellPhone">Cell Phone<br>
+                                <input id="cellPhone" type="tel" name="phone_number" maxlength="10"></label><br>
+                            <label for="businessName">Business Name<br>
+                                <input id="businessName" type="text" name="business_name" required><br></label>
+                            <label for="businessAddress">Business Address<br>
+                                <input id="businessAddress" type="text" placeholder="123 Fourth Street, Draper, Utah" name="business_address"><br></label>
+                            <label for="businessWebsite">Business Website<br>
+                                <input id="businessWebsite" type="url" placeholder="come2draper.com" name="business_website"><br></label>                       
+                            <label for="businessDescription">Business Description<br>
+                                <input id="businessDescription" type="text" name="business_description"><br></label>
+                            <label for="membershipLevel">Membership Level</label><br>
+                            <select id="membershipLevel" name="membership_level">
+                                <option value="non_profit">Non-Profit ($100)</option>
+                                <option value="bronze">Bronze ($200)</option>
+                                <option value="silver">Silver ($400)</option>
+                                <option value="gold">Gold ($1,000)</option>
+                            </select><br></label><br>        
+                        <div class="button">
+                            <a href="thanks.html"></a>
+                            <input type="submit" id="submit" value="Submit">
+                        </div>
+                    </div>
+                </form>
+            <div class="benefits-levels">
+                <div id="nonprofit_member">
+                    <h3>Non-profit Member Benefits</h3>
+                    <ul>
+                        <li>1 Time Business Promotion on Website Annually</li>
+                        <li>Business Listed in Directory Listing</li>
+                        <li>Access to Online Webinars</li>
+                        <li>Discount for Semi-Annual Business Luncheon</li>
+                    </ul>
+                </div>
+                
+                <div id="bronze_benefits">
+                    <h3>Bronze Member Benefits</h3>
+                    <ul>
+                        <li>2 Business Promotions on Website Annually</li>
+                        <li>Business Listed in Directory Listing</li>
+                        <li>Access to Online Webinars and Previously Recorded Clinics</li>
+                        <li>Half Price tickets to Semi-Annual Business Luncheon</li>
+                        <li>Sponsorship Listed in Promotions for Luncheon</li>
+                    </ul>
+                </div>
 
+                <div id="silver_benefits">
+                    <h3>Silver Member Benefits</h3>
+                    <ul>
+                        <li>3 Business Promotions on Website Annually</li>
+                        <li>Business Listed in Directory Listing</li>
+                        <li>Access to Online Webinars and monthly Clinics</li>
+                        <li>1 Free Ticket to Semi-Annual Business Luncheon</li>
+                        <li>Half Price for other tickets to Semi-Annual Luncheon</li>
+                        <li>Sponsorship Listed in Promotions for Luncheon</li>
+                        <li>2 Minutes Presentation time at Business Luncheon</li>
+                    </ul>
+                </div>
 
-</body>
-</html>
+                <div id="gold_benefits">
+                    <h3>Gold Member Benefits</h3>
+                    <ul>
+                        <li>Monthly Business Promotions on Website</li>
+                        <li>Business Listed in Directory Listing</li>
+                        <li>Access to Online Webinars, Monthly Clinics and Networking Group</li>
+                        <li>2 Free Tickets to Semi-Annual Business Luncheon</li>
+                        <li>Half Price for other tickets to Luncheon</li>
+                        <li>Sponsorship Highlighted in Promotions for Luncheon</li>
+                        <li>5 Minutes Presentation time at Business Luncheon</li>
+                        <li>Table for 8 at Annual Fundraising Gala</li>
+                    </ul>
+                </div>
+            </div>
+        </div>                     
+    </main>
+    <footer>
+        <div class="foot-flex">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97093.69203342513!2d-111.92250593211558!3d40.49344950960342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752805153135f0f%3A0xea3aa3af26cf70b2!2sDraper%2C%20UT!5e0!3m2!1sen!2sus!4v1626190363138!5m2!1sen!2sus" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         <ul>
+             <li><strong>Contact Information</strong></li>
+             <li>1160 So Pioneeer Road</li>
+             <li>Draper, UT 84020</li>
+             <li>(801) 553-0928</li>
+         </ul>
+         <div class="be-social">
+             <a href="https://www.facebook.com/places/Things-to-do-in-Draper-Utah/105571529476024/"><img src="images/fb-logo.png" alt="facebook"></a>
+             <a href="https://www.instagram.com/drapercity/"><img src="images/ig-logo.png" alt="instagram"></a>
+         </div>
+        </div>
+     </footer>
+     <div class="sub-foot">
+        © <span id="NewYear"></span> Draper Chamber of Commerce | Wendy Strickland | WDD230<br>
+        Current Date: <span id="currentdate"></span> | <span class="terms"><a href="https://www.termsfeed.com/live/53a350ac-d1c9-471a-8ca2-25569d76a2ab" target="_blank" class="tc">Terms and Conditions</a></span><br>
+        <script src="js/year.js"></script>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>    
+     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+     <script src="js/webfont.js"></script>    
+ </body>
+ </html>

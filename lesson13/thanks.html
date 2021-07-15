@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Draper City  |  Chamber of Commerce  |  Home </title>
+    <meta name="description" content="Chamber of Commerce site for the city of Draper, Utah">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/draper.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+</head>
+<body>
+    <header>
+        <div class="header-layout">
+            <H1>HOME OF</H1>
+            <img src="images/logo-200.jpg" alt="Draper City Logo" class="logo-image">
+            <H2 class="down-you-go">CHAMBER OF COMMERCE</H2>
+                <table class="current-weather">
+                    <thead>
+                        <tr>
+                            <td colspan="2"><h4>Current Weather in Draper</h4></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CURRENTLY:</td><td><span id="current-temp"></span>&#176; F</td>
+                        </tr>
+                        <tr>
+                            <td>HUMIDITY:</td><td><span id="humidity"></span>%</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><span id="description"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script src="js/current-weather.js"></script>
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                <ul class="head-nav-list" id="menu">
+                    <li><a href="index.html" class="nav-active">Home</a></li>
+                    <li><a href="city.html">City</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="thanks-box">
+            <h2>Thanks for Joining the Draper City Chamber of Commerce!</h2>
+            <p>We can't wait to get to know you and your business and value the industry that you bring to our great city!  Watch your e-mail for updates, webinar information, and chamber events.</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="foot-flex">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97093.69203342513!2d-111.92250593211558!3d40.49344950960342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752805153135f0f%3A0xea3aa3af26cf70b2!2sDraper%2C%20UT!5e0!3m2!1sen!2sus!4v1626190363138!5m2!1sen!2sus" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <ul>
+                    <li><strong>Contact Information</strong></li>
+                    <li>1160 So Pioneeer Road</li>
+                    <li>Draper, UT 84020</li>
+                    <li>(801) 553-0928</li>
+                </ul>
+            <div class="be-social">
+                <a href="https://www.facebook.com/places/Things-to-do-in-Draper-Utah/105571529476024/"><img src="images/fb-logo.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/drapercity/"><img src="images/ig-logo.png" alt="instagram"></a>
+            </div>
+        </div>
+    </footer>
+        <div class="sub-foot">
+            © <span id="NewYear"></span> Draper Chamber of Commerce | Wendy Strickland | WDD230<br>
+            Current Date: <span id="currentdate"></span> | <span class="terms"><a href="https://www.termsfeed.com/live/53a350ac-d1c9-471a-8ca2-25569d76a2ab" target="_blank" class="tc">Terms and Conditions</a></span><br>
+            <script src="js/year.js"></script>
+        </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+ <script src="js/webfont.js"></script>    
+</body>
+</html>
