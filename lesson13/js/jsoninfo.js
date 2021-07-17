@@ -7,10 +7,9 @@ fetch(jsonFILE)
   .then(function (jsonObject) {
     console.table(jsonObject);
   
+    let restaurants = jsonObject.businessdirectory[0].restraunts;
 
-  const businessdirectory = jsonObject['businessdirectory'];
-
-  for (let i = 0; i < businessdirectory.length; i++ ) {
+  for (let i = 0; i < restaurant.length; i++ ) {
 
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
@@ -20,17 +19,17 @@ fetch(jsonFILE)
     let web = document.createElement('p');
     let img = document.createElement('img');
 
-    h2.textContent = businessdirectory[i].name;
-    img.src = businessdirectory[i].logo;
-    img.alt = businessdirectory[i].name;
-    address.textContent = businessdirectory[i].address;
-    city.textContent = businessdirectory[i].city;
-    phone.textContent = businessdirectory[i].phone;
-    web.textContent = businessdirectory[i].website;
+    h2.textContent = restaurants[i].name;
+    img.src = restaurants[i].logo;
+    img.alt = restaurants[i].name;
+    address.textContent = restaurants[i].address;
+    city.textContent = restaurants[i].city;
+    phone.textContent = restaurants[i].phone;
+    web.textContent = restaurants[i].website;
 
     card.appendChild(h2).appendChild(img).appendChild(address).appendChild(city).appendChild(phone).appendChild(web);
 
-document.querySelector('div.business-card').appendChild(card);
+document.querySelector('div.business-card-restaurant').appendChild(card);
 
 
 }
