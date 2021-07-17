@@ -31,7 +31,7 @@ p {
 }
 
 .logo-image {
-    width: 200 px; 
+    width: 200px; 
     height: 147px;
 }
 
@@ -644,4 +644,34 @@ main {
 
 .center-me {
   text-align: center;
+}
+
+.directory {
+  margin-top: 65px;
+}
+
+.rolodex {
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.list-view, .directory .grid-view {
+  border: none;
+  outline: none;
+  padding: 10px 25px;
+  background-color: #304C79;
+  color: #bfe7dd;
+}
+
+.list-view .active, .grid-view .active {
+  background-color: #bfe7dd;
+  color: #304C79;
+}
+
+.business-card {
+  background-color: #bfe7dd;
+  color: #304C79;
 }

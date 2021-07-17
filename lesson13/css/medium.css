@@ -22,7 +22,7 @@ h3 {
 
 #menuToggle {
     display: flex;
-    flex-wrap: column;
+    flex-wrap: wrap;
     flex-direction: row;
     margin: 0 auto;
     margin-left: -50px;
