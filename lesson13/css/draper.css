@@ -688,3 +688,9 @@ main {
   background-color:#304C79;
   color: #bfe7dd;
 }
+
+.business-card-restaurant div {
+  color: #304C79;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+}
