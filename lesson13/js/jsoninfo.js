@@ -51,7 +51,7 @@ let boutiques = jsonObject.businessdirectory[1].boutiques;
     bouphone.textContent = boutiques[i].phone;
     bouweb.textContent = boutiques[i].website;
 
-    boucard.appendChild(h2).appendChild(img).appendChild(address).appendChild(city).appendChild(phone).appendChild(web);
+    boucard.appendChild(bouh2).appendChild(bouimg).appendChild(bouaddress).appendChild(boucity).appendChild(bouphone).appendChild(bouweb);
 
 document.querySelector('div.business-card-restaurant').appendChild(boucard);
 }
