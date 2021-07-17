@@ -8,7 +8,7 @@ fetch(jsonFILE)
     console.table(jsonObject);
   
 
-  const businesses = jsonObject['businessdirectory'];
+  const businessdirectory = jsonObject['businessdirectory'];
 
   for (let i = 0; i < businessdirectory.length; i++ ) {
 
