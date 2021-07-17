@@ -658,6 +658,11 @@ main {
   flex-wrap: wrap;
 }
 
+.rolodex img {
+  width: 200px;
+  height: auto;
+}
+
 .list-view, .directory .grid-view {
   border: none;
   outline: none;
@@ -671,7 +676,12 @@ main {
   color: #304C79;
 }
 
-.business-card {
+.business-card-restaurant {
   background-color: #bfe7dd;
   color: #304C79;
+}
+
+.business-card-boutique {
+  background-color:#304C79;
+  color: #bfe7dd;
 }
