@@ -20,12 +20,12 @@ fetch(jsonFILE)
     let img = document.createElement('img');
 
     h3.textContent = restaurants[i].name;
-    img.src = restaurants[i].logo;
-    img.alt = restaurants[i].name;
     address.textContent = restaurants[i].address;
     city.textContent = restaurants[i].city;
     phone.textContent = restaurants[i].phone;
     web.textContent = restaurants[i].website;
+    img.src = restaurants[i].logo;
+    img.alt = restaurants[i].name;
 
     card.appendChild(h3).appendChild(img).appendChild(address).appendChild(city).appendChild(phone).appendChild(web);
 
@@ -44,12 +44,12 @@ let boutiques = jsonObject.businessdirectory[1].boutiques;
     let bouimg = document.createElement('img');
 
     bouh3.textContent = boutiques[i].name;
-    bouimg.src = boutiques[i].logo;
-    bouimg.alt = boutiques[i].name;
     bouaddress.textContent = boutiques[i].address;
     boucity.textContent = boutiques[i].city;
     bouphone.textContent = boutiques[i].phone;
     bouweb.textContent = boutiques[i].website;
+    //bouimg.src = boutiques[i].logo;
+    //bouimg.alt = boutiques[i].name;
 
     boucard.appendChild(bouh3).appendChild(bouimg).appendChild(bouaddress).appendChild(boucity).appendChild(bouphone).appendChild(bouweb);
 

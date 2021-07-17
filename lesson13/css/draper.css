@@ -663,6 +663,9 @@ main {
   height: auto;
 }
 
+.rolodex h3 {
+  color: #304C79;
+}
 .list-view, .directory .grid-view {
   border: none;
   outline: none;
