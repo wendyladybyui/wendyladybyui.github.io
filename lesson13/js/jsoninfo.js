@@ -1,4 +1,4 @@
-const jsonFILE = 'json/jsoninfo.js';
+const jsonFILE = 'json/directory.json';
 
 fetch(jsonFILE)
   .then(function (response) {
