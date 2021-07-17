@@ -27,7 +27,7 @@ fetch(jsonFILE)
     img.src = restaurants[i].logo;
     img.alt = restaurants[i].name;*/
 
-    card.appendChild(h3).appendChild(img).appendChild(address). /*appendChild(city).appendChild(phone).appendChild(web) */;
+    card.appendChild(h3).appendChild(img).appendChild(address) /* .appendChild(city).appendChild(phone).appendChild(web) */;
 
 document.querySelector('div.business-card-restaurant').appendChild(card);
   }
