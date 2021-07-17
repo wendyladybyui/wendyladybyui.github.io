@@ -1,4 +1,4 @@
-const jsonFILE = 'json/directory.json';
+const jsonFILE = 'https://wendyladybyui.github.io/lesson13/json/directory.json';
 
 fetch(jsonFILE)
   .then(function (response) {
