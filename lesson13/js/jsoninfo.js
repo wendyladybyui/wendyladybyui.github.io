@@ -7,7 +7,7 @@ fetch(jsonFILE)
   .then(function (jsonObject) {
     console.table(jsonObject);
   
-    let restaurants = jsonObject.businessdirectory[0].restauraunts;
+    let restaurants = jsonObject.businessdirectory[0].restaurants;
 
   for (let i = 0; i < restaurants.length; i++ ) {
 
