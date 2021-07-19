@@ -675,12 +675,12 @@ main {
 }
 
 .list-view .active, .grid-view .active {
-  background-color: #bfe7dd;
+  background-color: #ffffff;
   color: #304C79;
 }
 
 .business-card-restaurant {
-  background-color: #bfe7dd;
+  background-color: #ffffff;
   color: #304C79;
 }
 
@@ -692,5 +692,11 @@ main {
 .business-card-restaurant div {
   color: #304C79;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  margin-left: 20px;
+  font-size: 1em;
+}
+
+.business-card-boutique div {
+  color: #bfe7dd;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 1em;
 }
