@@ -1,62 +1,71 @@
 const jsonFILE = 'https://wendyladybyui.github.io/lesson13/json/directory.json';
 
 fetch(jsonFILE)
-  .then(function (response) {
-    return response.json();
-  })
-  .then(function (jsonObject) {
-    console.table(jsonObject);
+.then(function (response) {
+  return response.json();
+})
+.then(function (jsonObject) {
+  console.table(jsonObject);
   
-    let restaurants = jsonObject.businessdirectory[0].restaurants;
-        console.log(restaurants);
-    
-    
-    restaurants.forEach( x => {
-        let i = 0; 
-        console.log(i);
-        let name = restaurants[i].name;
-        document.getElementById(`restaurant-name`).textContent = name;
-        /*let address = restaurants[i].address;
-        let city = restaurants[i].city;
-        let phone = restaurants[i].phone;
-        let website = restaurants[i].website;
-        let logo = restaurants[i].logo;
-        let alt =  restaurants[i].name;
+  const restaurants = jsonObject.businessdirectory[0].restaurants;
+  for (let i = 0; i < restaurants.length; i++ ) {
+
+  let card = document.createElement('section');
+  card.classList.add('restaurantinfo');
+  let name = document.createElement('div');
+  card.classList.add('restaurantname');
+  name.textContent = restaurants[i].name ;
+  let address = document.createElement('div');
+  card.classList.add('restaurantaddress');
+  address.textContent = restaurants[i].address;
+  let city = document.createElement('div');
+  card.classList.add('restaurantcity');
+  city.textContent = restaurants[i].city;
+  let phone = document.createElement('div');
+  card.classList.add('restaurantphone');
+  phone.textContent = restaurants[i].phone;
+  let web = document.createElement('div');
+  card.classList.add('restaurantphone');
+  web.textContent = restaurants[i].web;
+  let logo = document.createElement('img');
+  logo.classList.add('restaurantlogo');
+  logo.src = restaurants[i].logo;
+
+  card.appendChild(name).appendChild(address).appendChild(city).appendChild(phone).appendChild(web).appendChild(logo);
+  document.querySelector('div.restaurant-card').appendChild(card); 
+  }
+
+});
+
+fetch(jsonFILE)
+.then(function (response) {
+  return response.json();
+})
+.then(function (jsonObject) {
+  console.table(jsonObject);
   
-    document.getElementById(`restaurant-name`).textContent = name;
-    document.getElementById(`restaurant-address`).textContent = address;
-    document.getElementById(`restaurant-city`).textContent = city;
-    document.getElementById(`restaurant-phone`).textContent = phone;
-    document.getElementById(`restaurant-website`).textContent = website;
-    img.src.getElementById(`restaurant-logo`) = logo;
-    img.alt.getElementById(`restaurant-logo`) = alt;*/
-    i++;
-
-  });
-
-  /*
-    let boutiques = jsonObject.businessdirectory[1].boutiques;
-
+  const boutiques = jsonObject.businessdirectory[1].boutiques;
   for (let i = 0; i < boutiques.length; i++ ) {
 
-    let boucard = document.createElement('section');
-    let bouh3 = document.createElement('h3');
-    let bouaddress = document.createElement('p');
-    let boucity = document.createElement('p');
-    let bouphone = document.createElement('p');
-    let bouweb = document.createElement('p');
-    let bouimg = document.createElement('img');
+  let boucard = document.createElement('section');
+  boucard.classList.add('boutiqueinfo');
+  let bouname = document.createElement('div');
+  bouname.classList.add('boutiquename');
+  bouname.textContent = boutiques[i].name ;
+  let bouaddress = document.createElement('div');
+  bouaddress.textContent = boutiques[i].address;
+  let boucity = document.createElement('div');
+  boucity.textContent = boutiques[i].city;
+  let bouphone = document.createElement('div');
+  bouphone.textContent = boutiques[i].phone;
+  let bouweb = document.createElement('div');
+  bouweb.textContent = boutiques[i].web;
+  let boulogo = document.createElement('img');
+  boulogo.classList.add('boutiquelogo');
+  boulogo.src = boutiques[i].logo;
 
-    bouh3.textContent = boutiques[i].name;
-    bouaddress.textContent = boutiques[i].address;
-    boucity.textContent = boutiques[i].city;
-    bouphone.textContent = boutiques[i].phone;
-    bouweb.textContent = boutiques[i].website;
-    //bouimg.src = boutiques[i].logo;
-    //bouimg.alt = boutiques[i].name;
+  boucard.appendChild(bouname).appendChild(bouaddress).appendChild(boucity).appendChild(bouphone).appendChild(bouweb).appendChild(boulogo);
+  document.querySelector('div.boutique-card').appendChild(boucard); 
+  }
 
-    boucard.appendChild(bouh3).appendChild(bouimg).appendChild(bouaddress).appendChild(boucity).appendChild(bouphone).appendChild(bouweb);
-
-document.querySelector('div.business-card-boutique').appendChild(boucard);
-}*/
-  });
+});
