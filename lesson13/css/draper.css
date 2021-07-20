@@ -459,7 +459,7 @@ main {
 
 .sharks {
   display: block;
-  background-color:#f7ecbf;
+  background-color:#f8f2d9;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -613,7 +613,7 @@ main {
 .comments-button input {
   padding-right: 20px;
   padding-left: 20px;
-  background-color: #97c4b8;
+  background-color: #d0f3ea;
   color: #304C79;
   box-shadow: 2px 2px 4px #304C79;
 }
