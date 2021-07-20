@@ -651,27 +651,44 @@ main {
 }
 
 .rolodex {
-  
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 1100px;
+ 
 }
 
-.rolodex h3 {
-  color: #304C79;
+.column {
+  float: left;
+  width: 500px;
+  padding: 10px;
 }
-.list-view, .directory .grid-view {
+
+.row:after, .restaurantinfo:after, .boutiqueinfo:after {
+  content: "";
+  display: table;
+  clear:both;
+}
+
+.btn {
   border: none;
   outline: none;
-  padding: 10px 25px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: #304C79;
-  color: #bfe7dd;
+  color: #ece5db;
+  box-shadow: 2px 2px 4px #413a32;
+  border-radius: 4px;
 }
 
-.list-view .active, .grid-view .active {
+.btn:hover {
+  background-color: #918b84;
+  color: #536075;
+}
+
+.btn.active {
   background-color: #ffffff;
-  color: #304C79;
+  color: #304C79
 }
 
 .restaurantinfo, .boutiqueinfo {
@@ -679,8 +696,7 @@ main {
   color: #304C79;
   border: 2px solid #304C79;
   margin: 5px;
-  width: 500px;
-  height: auto;
+  
 }
 
 .restaurantname, .boutiquename {
@@ -699,3 +715,10 @@ main {
   right: 10px;
   padding: 5px;
 }
+
+.view-icon, .grid-icon {
+  padding-right: 4px;
+  padding-top: 4px;
+  height: 20px;
+}
+

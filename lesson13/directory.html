@@ -39,24 +39,23 @@
 
     <main class="directory">
         <div id="view-buttons">
-            <button class="list-view btn" onclick="listView()"><i class="fa fa-bars"></i>List</button>
-            <button class="grid-view btn active" onclick="gridView()"><i class="fa fa-th-large"></i>Grid</button>
+            <button class="list-view btn" onclick="listView()"><img src="images/list-view-small.png" class="view-icon magic-icons">List</button>
+            <button class="grid-view btn active" onclick="gridView()"><img src="images/grid-view-small.png" class="grid-icon magic-icons">Grid</button>
         </div>
-            <script src="js/grid-list.js"></script>
         <br>
-        <div class="rolodex">
-            <div class="restaurants-together">
+
+        <div class="rolodex row">
+            <div class="restaurants-together column">
                 <h2 class="restaurants">Local Restaurants</h2>
-                <div class="restaurant-card business-card">
-                </div>
+                <div class="restaurant-card business-card"></div>
             </div>
-               <br>
-            <div class="boutiques-together">
+            <div class="boutiques-together column">
                 <h2 class="boutiques">Local Boutiques</h2>
-                <div class="boutique-card business-card">
-                </div>
+                <div class="boutique-card business-card"></div>
             </div>
+        </div>
         <script src="js/jsoninfo.js"></script>
+        <script src="js/grid-list.js"></script>
     </main>
 
     <footer>
