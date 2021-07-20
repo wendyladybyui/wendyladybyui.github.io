@@ -30,6 +30,7 @@ fetch(jsonFILE)
   let logo = document.createElement('img');
   logo.classList.add('restaurantlogo');
   logo.src = restaurants[i].logo;
+  logo.alt = restaurants[i].name;
 
   card.appendChild(name).appendChild(address).appendChild(city).appendChild(phone).appendChild(web).appendChild(logo);
   document.querySelector('div.restaurant-card').appendChild(card); 

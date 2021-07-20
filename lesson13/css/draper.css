@@ -1,7 +1,7 @@
 /* general Settings */
 h1 {
     font-family: 'Lora', Times, serif;
-    color: #e77762;
+    color: #c7543f;
     font-size: 2em;
     margin-left: 20px;
 }
@@ -93,7 +93,7 @@ p {
 }
 
 #menuToggle a:hover {
-    color: #e77762;
+    color: #daaaa2;
     transition: color 0.3s ease;
 }
 
@@ -202,7 +202,7 @@ main {
 .join {
     font-family: 'Parisienne', Helvetica, sans-serif;
     font-size: 3.5em;
-    color: #4FC0A4;
+    color: #01a078;
     padding-top: 25px;
     padding-left: 15px;
     grid-column: 1;
@@ -297,7 +297,7 @@ main {
     text-align: center;
     font-family: 'Lora', Times, serif;
     font-size: 1.25em;
-    color: #4FC0A4;
+    color: #01a078;
 }
 
 .whats-up tbody {
@@ -337,7 +337,7 @@ main {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: #2496A4;
+  color: #037d8d;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
